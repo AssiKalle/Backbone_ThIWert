@@ -1,9 +1,9 @@
-- "The Ultimate Guide to…IT Project Management" - projectmanager.com: https://www.projectmanager.com/it-project-management
-- Weclapp: https://www.weclapp.com/de/lexikon/projektplanung
-- PDF book "Network requirement analysis and plan" - MIT Student: https://www.researchgate.net/publication/338220481_Network_requirement_analysis
-- General "Demand Analysis Meaning, Importance, Steps, Parameters & Example": https://www.mbaskool.com/business-concepts/marketing-and-strategy-terms/10953-demand-analysis.html
 - "Project Management Methods, Methodologies, and Frameworks – A Guide for Beginners" - by ALEXANDRA COTE, November 27, 2019: https://www.paymoapp.com/blog/project-management-methodologies/
+- Weclapp: https://www.weclapp.com/de/lexikon/projektplanung
 - "9 Of The Most Popular Project Management Methodologies Made Simple" - by Ben Aston, 10/08/2021: https://thedigitalprojectmanager.com/project-management-methodologies-made-simple/
 - "What is Project Management Methodologies?" - Visual-Paradigm: https://www.visual-paradigm.com/guide/project-management/what-is-project-management-methodologies/
 - "Top 5 Project Management Tips for Implementing Network Infrastructure" - Coranet: https://www.coranet.com/project-management-tips-for-network-infrastructure/
+- General "Demand Analysis Meaning, Importance, Steps, Parameters & Example": https://www.mbaskool.com/business-concepts/marketing-and-strategy-terms/10953-demand-analysis.html
+- PDF book "Network requirement analysis and plan" - MIT Student: https://www.researchgate.net/publication/338220481_Network_requirement_analysis
+- "The Ultimate Guide to…IT Project Management" - projectmanager.com: https://www.projectmanager.com/it-project-management
 - Playlist "Project Management" - Youtube Engineer4free: https://www.youtube.com/playlist?list=PLOAuB8dR35oeyKU0ojIxD8Muf6Mwc8ugW
