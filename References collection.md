@@ -5,3 +5,5 @@
 - "Project Management Methods, Methodologies, and Frameworks – A Guide for Beginners" - by ALEXANDRA COTE, November 27, 2019: https://www.paymoapp.com/blog/project-management-methodologies/
 - "9 Of The Most Popular Project Management Methodologies Made Simple" - by Ben Aston, 10/08/2021: https://thedigitalprojectmanager.com/project-management-methodologies-made-simple/
 - "What is Project Management Methodologies?" - Visual-Paradigm: https://www.visual-paradigm.com/guide/project-management/what-is-project-management-methodologies/
+- "Top 5 Project Management Tips for Implementing Network Infrastructure" - Coranet: https://www.coranet.com/project-management-tips-for-network-infrastructure/
+- Playlist "Project Management" - Youtube Engineer4free: https://www.youtube.com/playlist?list=PLOAuB8dR35oeyKU0ojIxD8Muf6Mwc8ugW
