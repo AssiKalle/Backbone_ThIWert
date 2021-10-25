@@ -2,5 +2,5 @@
 Upcycling_BB 
 
 Todo list:
-[-] Checklist questions to ask
-[-] Collect References
+[] Checklist questions to ask
+[] Collect References
