@@ -1,15 +1,17 @@
 Theore. Teil:
-[ ] Planung Funklinks
-[ ] Konfiguration als Office Setup
-- [ ] Vlan
-- [ ] VPN
+- [ ] Planung Funklinks
+ - [ ] Konfiguration als Office Setup
+- - [ ] Vlan
+- - [ ] VPN
 Prak. Teil:
-[ ] Testaufbau Office
-[ ] mögliche Installation
+- [ ] Testaufbau Office
+- [ ] mögliche Installation
 Präsi:
-[ ] Performance Analysis
+- [ ] Performance Analysis
 
 Ansprechpartner:
-[ ] Prof. Ariane Ruff -- ThIWert
-[ ] Mark Gassmann
-[ ] Fred Wagner -- Medienzentrum
+1. ThIWert
+- Prof. Ariane Ruff 
+- Admin* Mark Gassmann
+2. Medienzentrum
+- Fred Wagner 
