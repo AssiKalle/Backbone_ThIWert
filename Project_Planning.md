@@ -1,7 +1,15 @@
 # Backbone ThIWert
 ## I. Planning:
+1. Goal:
+The goal of this project is having a freifunk internet connection directly between Campus Nordhausen and ThIWert.
+
+2. Requirements:
+- 
+
 
 ### 1. Rough Planning:
+
+
 1. Distance measuring/estimating via Google Earth
 2. Posible obstacles and terrains research
 3. Topographic survey
@@ -18,4 +26,5 @@ There is low chance of any posible obstacle blocking signal.
 
 Topographic survey occur on Monday October 25th to search for available mounting points.
 ## II. Implementation:
+## III. Operation:
 
