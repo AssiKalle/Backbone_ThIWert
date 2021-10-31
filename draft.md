@@ -2,10 +2,10 @@
 An AKO Project by Gin Havana and AssiKalle
 
 ## I. Planning:
-1. Goal:
-The goal of this project is having a freifunk internet connection directly between Campus Nordhausen and ThIWert.
+1. Goal:  
+The goal is to create a stable network radio connection from the HS-Nordhausen to the ThiWert.
 
-1.1. Conditions and requirements:
+1.1. Conditions and requirements:  
 1.1.1. Main consideration:
 - Choosing mounting location
   - [ ] Which building? Options are building 18, 19 and ThIWert
@@ -19,6 +19,7 @@ The goal of this project is having a freifunk internet connection directly betwe
   - [ ] Ask for time limit
 - Quality requirement
   - Presumably the connection is flawlessly
+  - The reliability and a high speed are main issues.
   - [ ] Detail expectation, e.g. bandwidth, etc.
 1.1.2. Sub demand and condition:
 - Weather condition
