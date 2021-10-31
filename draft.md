@@ -32,7 +32,8 @@ The goal is to create a stable network radio connection from the HS-Nordhausen t
 - Malfunction hardware or inconfigurable software technology
 - Bad weather
 - To many obstacles interrupting signal
-- tbd due to multiple attempts if fail
+- tbd [^1] due to multiple attempts if fail
+[^1]: to be determined.
 
 1.3. Consequences:
 - How willing is the client to take risks?
