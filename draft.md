@@ -40,14 +40,14 @@ The goal of this project is having a freifunk internet connection directly betwe
 1.4. Expectation:
 - tbd
 
-1.5. Contact details:
-    1. ThIWert:
-      - Prof. Ariane Ruff
-      - Admin* Mark Gassmann
-    2. Medienzentrum:
-      - Fred Wagner
-    3. Supervisor:
-      - Prof. Dr.-Ing. Thomas Hühn
+1.5. Contact details:  
+  1. ThIWert:
+     - Prof. Ariane Ruff
+     - Admin* Mark Gassmann
+  2. Medienzentrum:
+     - Fred Wagner
+  3. Supervisor:
+     - Prof. Dr.-Ing. Thomas Hühn
 
 2. Rough planning:
 - [ ] Distance estimation and calculation and in practice (via Google Earth)
@@ -60,8 +60,8 @@ The goal of this project is having a freifunk internet connection directly betwe
 3. Detail planning:
 - 
 ## II. Implementation:
-1. Condition research:
-  Due to known information, there are two variants from which the antenna(s) can be installed. They are building 18 and building 19. Distance will be measured from south side of both buildings, since ThIWert main building ist positioned southern from Campus, and from north side of ThIWert main building. Assuming that installation points can be roughly on the southern wall of buildings 18 and 19 and on northern wall of ThIWert building, the measured/estimated distances via Google Earth are:
+1. Condition research:  
+Due to known information, there are two variants from which the antenna(s) can be installed. They are building 18 and building 19. Distance will be measured from south side of both buildings, since ThIWert main building ist positioned southern from Campus, and from north side of ThIWert main building. Assuming that installation points can be roughly on the southern wall of buildings 18 and 19 and on northern wall of ThIWert building, the measured/estimated distances via Google Earth are:
 
 |Distance from H18|Distance from H19|Height difference
 | - | - | - |
