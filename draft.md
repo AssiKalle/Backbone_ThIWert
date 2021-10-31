@@ -50,15 +50,19 @@ The goal of this project is having a freifunk internet connection directly betwe
      - Prof. Dr.-Ing. Thomas Hühn
 
 2. Rough planning:
-- [ ] Distance estimation and calculation and in practice (via Google Earth)
-- [ ] Height difference (via Google Earth)
-- [ ] Look for obstacle
+- [x] Distance estimation and calculation and in practice (via Google Earth)
+- [x] Height difference (via Google Earth)
+- [x] Look for obstacle theoretically
 - [ ] Check weather condition
+- [ ] Have a meeting to research about conditions and requirements as well as demands
 - [ ] Topographic survey
 - [ ] Research about routing device that fits budget
+- [ ] tbd
 
 3. Detail planning:
-- 
+- [ ] Research for obstacles e.g. trees or buildings that blocking the direct signal. Can be done by measuring on Google Earth.
+- [ ] tbd
+
 ## II. Implementation:
 1. Condition research:  
 Due to known information, there are two variants from which the antenna(s) can be installed. They are building 18 and building 19. Distance will be measured from south side of both buildings, since ThIWert main building ist positioned southern from Campus, and from north side of ThIWert main building. Assuming that installation points can be roughly on the southern wall of buildings 18 and 19 and on northern wall of ThIWert building, the measured/estimated distances via Google Earth are:
