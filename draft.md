@@ -22,6 +22,10 @@ The goal is to create a stable network radio connection from the HS-Nordhausen t
   - The reliability and a high speed are main issues.
   - [ ] Detail expectation, e.g. bandwidth, etc.
 1.1.2. Sub demand and condition:
+- Technical details:
+  - [ ] Ipv4/v6
+  - [ ] Mac maybe
+  - [ ] other details
 - Weather condition
 - Obstacle between to access points
 
