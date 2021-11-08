@@ -8,7 +8,7 @@ The goal is to create a stable network radio connection from the HS-Nordhausen t
 1.1. Conditions and requirements:  
 1.1.1. Main consideration:
 - Choosing mounting location
-  - [x] Which building? Options are building 18, 19 and ThIWert: Haus 18
+  - [x] Which building? Options are building 18, 19 and ThIWert: **Haus 18**
   - [ ] Wall height, width
   - [ ] Which floor exactly
 - Budget, cost
