@@ -20,7 +20,7 @@ The goal is to create a stable network radio connection from the HS-Nordhausen t
 - Quality requirement
   - Presumably the connection is flawlessly
   - The reliability and a high speed are main issues.
-  - [ ] Detail expectation, e.g. bandwidth, etc.
+  - [ ] Detail expectation, e.g. bandwidth, etc.  
 1.1.2. Sub demand and condition:
 - Technical details:
   - [ ] Ipv4/v6
