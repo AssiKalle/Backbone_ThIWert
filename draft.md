@@ -22,13 +22,20 @@ The goal is to create a stable network radio connection from the HS-Nordhausen t
   - [ ] Detail expectation, e.g. bandwidth, etc.
 
 1.1.2. Sub demand and condition:
+- Mounting option:
+  - [x] Distance between location
+  - [ ] Building height to calculate height difference
+  - [ ] Safety
 - Technical details:
-  - [x] Glass fiber switch
+  - [x] Glass fiber
+  - [x] PoE Switch
   - [ ] Ipv4/v6
   - [ ] Mac maybe
+  - [ ] Durability of antenne under weather condition
   - [ ] other details
 - Weather condition
-- Obstacle between to access points
+  - [ ] Wind speed on install day
+- Obstacle between mounting location
 
 ***1.2. Premeasured risks:***
 - Low budget or hardware has high cost
@@ -39,8 +46,6 @@ The goal is to create a stable network radio connection from the HS-Nordhausen t
 - To many obstacles interrupting signal
 - tbd [^1] due to multiple attempts if fail
 [^1]: to be determined.
-
-For mounting option on the roof of the main building, the first difficulty is that the roof does not belong to ThIWert but to landlord and ThIWert does not know exactly if it is available for mounting. For mounting option on top of the heat tower, there are some possible safety risks such as climbing up the tower (? height) and weather condition halfway as well as on the top.
 
 ***1.3. Consequences:***
 - How willing is the client to take risks?
@@ -75,6 +80,8 @@ For mounting option on the roof of the main building, the first difficulty is th
 **3. Detail planning:**
 - [ ] Research for obstacles e.g. trees or buildings that blocking the direct signal. Can be done by measuring on Google Earth.
 - [ ] tbd [^1]
+
+
 
 ## II. Implementation:
 **1. Condition research:**  
