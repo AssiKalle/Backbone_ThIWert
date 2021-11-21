@@ -6,3 +6,7 @@ Todo list:
 - [ ] Collect References
 - [ ] Research PJM IT, Anforderung des Kundens, NWT
 - [ ] Zotero
+
+
+- [ ] Building height
+- [ ] 
