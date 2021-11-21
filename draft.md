@@ -3,7 +3,9 @@ An AKO Project by Gin Havana and AssiKalle
 
 ## I. Planning:
 **1. Goal:**
-The goal is to create a stable network radio connection from the HS-Nordhausen to the ThiWert. The best option should be glass fiber technology and Power over Ethernet if possible.
+The goal is to create a stable network radio connection from the HS-Nordhausen to the ThiWert. 
+To reduce additional power suply, it is fairly good if Power over Ethernet is applied.
+The best option should be glass fiber technology and Power over Ethernet if possible. 
 
 ***1.1. Conditions and requirements:***  
 1.1.1. Main consideration:
