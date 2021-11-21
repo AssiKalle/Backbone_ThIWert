@@ -4,8 +4,6 @@ An AKO Project by Gin Havana and AssiKalle
 ## I. Planning:
 **1. Goal:**
 The goal is to create a stable network radio connection from the HS-Nordhausen to the ThiWert. 
-To reduce additional power suply, it is fairly good if Power over Ethernet is applied.
-The best option should be glass fiber technology and Power over Ethernet if possible. 
 
 ***1.1. Conditions and requirements:***  
 1.1.1. Main consideration:
@@ -60,18 +58,9 @@ The best option should be glass fiber technology and Power over Ethernet if poss
 - [ ] 80m cable is enough
 - tbd [^1]
 
-***1.5. Contact details:***  
-  1. ThIWert:
-     - Prof. Ariane Ruff
-     - Admin* Mark Gassmann
-  2. Medienzentrum:
-     - Fred Wagner
-  3. Supervisor:
-     - Prof. Dr.-Ing. Thomas Hühn
-
 **2. Rough planning:**
-- [x] Distance estimation and calculation and in practice (via Google Earth)
-- [x] Height difference (via Google Earth)
+- [x] Distance estimation and calculation and in practice
+- [x] Height difference
 - [x] Look for obstacle theoretically and practically
 - [ ] Check weather condition
 - [ ] Have a meeting to research about conditions and requirements as well as demands
@@ -80,12 +69,22 @@ The best option should be glass fiber technology and Power over Ethernet if poss
 - [ ] tbd [^1]
 
 **3. Detail planning:**
-- [ ] Research for obstacles e.g. trees or buildings that blocking the direct signal. Can be done by measuring on Google Earth.
-- [ ] tbd [^1]
+For distance estimation, Google Earth is our option. This distances from middle of Haus 18 and 19 to side entrance of ThIWert building are estimately calculated.
+Many appointments are required for topology research for exact locations and views of mounting options and possible weather condition. There are also some details needed to notice such as cable access, estimated length of cable, technical devices, etc.
+To reduce additional power suply, it is fairly good if Power over Ethernet is applied. For safety purpose, PoW Antenna should have max 48V DC. The best option to transmit internet signal to end devices is Glass Fiber.
+tbd [^1]
 
-
+**4. Contact details:**  
+1. ThIWert:
+   - Prof. Ariane Ruff
+   - Admin* Mark Gassmann
+2. Medienzentrum:
+   - Fred Wagner
+3. Supervisor:
+   - Prof. Dr.-Ing. Thomas Hühn
 
 ## II. Implementation:
+
 **1. Condition research:**  
 Due to known information, there are two variants from which the antenna(s) can be installed. They are building 18 and building 19. Distance will be measured from south side of both buildings, since ThIWert main building ist positioned southern from Campus, and from north side of ThIWert main building. Assuming that installation points can be roughly on the southern wall of buildings 18 and 19 and on northern wall of ThIWert building, the measured/estimated distances via Google Earth are:
 
@@ -134,4 +133,10 @@ There is server box wired directly to the roof of the same building through thir
 ![2021_11_08_ThIWert_view-to-campus-horizontal_true-POV](https://user-images.githubusercontent.com/66717834/142769629-734763b0-18b0-430f-baf0-5993ff730ff3.jpg)
 ![Ggl_Earth-signal-pov](https://user-images.githubusercontent.com/66717834/142769712-cfa2c279-1a2b-4135-bf6f-6e36c6256cab.png)
 
-    2. For the mounting option on top of the heat tower, some risks have first been notice. The tower is very high with mostly no protective devices or method. Weather condition is also in concern. Technician has to climb up the tower which requires hiring professional technician and safety gears or personal protective equiments, which demand  extra cost. This option is therefore high risk high cost.
+    2. For the mounting option on top of the heat tower, some risks have first been notice. The tower is very high with mostly no protective devices or method. Weather condition is also in concern. Technician has to climb up the tower which requires hiring professional technician and safety gears or personal protective equiments, which demand  extra cost. The distance between the tower and server box is also far. This option is therefore high risk high cost and should only be deadend solution.
+
+https://user-images.githubusercontent.com/66717834/142772420-a6c32e5f-44b6-4808-81d0-4b37938e5b4f.mp4
+
+Access to cabling is still needed.
+
+## III. Operating: not yet
