@@ -68,7 +68,7 @@ The goal is to create a stable network radio connection from the HS-Nordhausen t
 - [ ] Research about routing device that fits budget
 - [ ] tbd [^1]
 
-**3. Detail planning:**
+**3. Detail planning:**  
 For distance estimation, Google Earth is our option. This distances from middle of Haus 18 and 19 to side entrance of ThIWert building are estimately calculated.
 Many appointments are required for topology research for exact locations and views of mounting options and possible weather condition. There are also some details needed to notice such as cable access, estimated length of cable, technical devices, etc.
 To reduce additional power suply, it is fairly good if Power over Ethernet is applied. For safety purpose, PoW Antenna should have max 48V DC. The best option to transmit internet signal to end devices is Glass Fiber.
