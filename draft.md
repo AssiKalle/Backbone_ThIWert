@@ -106,9 +106,11 @@ The true distances measured from Library via Google Earth are:
 | - | - |
 |1.45 km|1.4 km|
 
-![Ggl_Earth-lib-main](https://user-images.githubusercontent.com/66717834/142769870-bb3dea9f-3266-4d89-a3d2-daaebadc317f.png)
-![Ggl_Earth-lib-tower](https://user-images.githubusercontent.com/66717834/142769886-6b143490-8d0b-4b3e-be97-543b18d1b65b.png)
+![Ggl_Earth-lib-main](https://user-images.githubusercontent.com/66717834/142769870-bb3dea9f-3266-4d89-a3d2-daaebadc317f.png) [^2]
+[^2]: Distance to main building roof.
 
+![Ggl_Earth-lib-tower](https://user-images.githubusercontent.com/66717834/142769886-6b143490-8d0b-4b3e-be97-543b18d1b65b.png)[^3]
+[^3]: Distance to heat tower.
 
 Height difference from library roof (192+ m):
 |To main building roof|To heat tower top|
