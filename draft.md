@@ -50,7 +50,7 @@ For mounting option on the roof of the main building, the first difficulty is th
 - [ ] Technical hardwares fit planned budget. 
 - [x] Glass fiber technology
 - [x] Power over Ethernet technology, e.g. Antenna, Switch, etc.
-- tbd
+- tbd [^1]
 
 ***1.5. Contact details:***  
   1. ThIWert:
@@ -69,14 +69,14 @@ For mounting option on the roof of the main building, the first difficulty is th
 - [ ] Have a meeting to research about conditions and requirements as well as demands
 - [ ] Topographic survey
 - [ ] Research about routing device that fits budget
-- [ ] tbd
+- [ ] tbd [^1]
 
 **3. Detail planning:**
 - [ ] Research for obstacles e.g. trees or buildings that blocking the direct signal. Can be done by measuring on Google Earth.
-- [ ] tbd
+- [ ] tbd [^1]
 
 ## II. Implementation:
-**1. Condition research:**
+**1. Condition research:**  
 Due to known information, there are two variants from which the antenna(s) can be installed. They are building 18 and building 19. Distance will be measured from south side of both buildings, since ThIWert main building ist positioned southern from Campus, and from north side of ThIWert main building. Assuming that installation points can be roughly on the southern wall of buildings 18 and 19 and on northern wall of ThIWert building, the measured/estimated distances via Google Earth are:
 
 |Distance from H18|Distance from H19|Height difference
@@ -85,7 +85,8 @@ Due to known information, there are two variants from which the antenna(s) can b
 
 There is low chance of any posible obstacle blocking signal.
 
-**2. Topology implementation:**
+**2. Topology implementation:**  
+1.
 The first topology research was on November 8th 2021. There are 2 options of antenna mounting location at ThIWert:
   1. - [ ] on the roof of the main building
   2. - [ ] on top of the side tower
@@ -100,6 +101,7 @@ Height difference:
 |To main building roof|To heat tower|
 | - | - |
 | - | - |
+
 
 The server box in the main building has a switch which already connected to the antenna on the roof with glass fiber. 
  ![2021_11_08_ThIWert_main-building-server-box-with-glasfaser](https://user-images.githubusercontent.com/66717834/142764639-c298fee1-eb94-4dc8-9072-169497d15a9b.jpg)
