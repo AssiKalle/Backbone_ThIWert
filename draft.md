@@ -108,9 +108,15 @@ Height difference from library roof (192+ m):
 |177+ m|177+ m|
 
 There are 2 server containers that have PoW Switch wired to each other by Glass Fiber cable (? need reconfirmation):
-    1. On the second floor of main building, in technical room. There is server box wired directly to the roof of the same building through third floor.
-    2. In the main hall near entrance to labor and also near entrance to main building.
-    
+  1. On the second floor of main building, in technical room.  
+![2021_11_08_ThIWert_main-building-server-box-with-glasfaser](https://user-images.githubusercontent.com/66717834/142770168-a310233f-71ac-486b-8e06-2ad119a2a335.jpg)![2021_11_08_ThIWert_main-building-server-box-with-glasfaser1](https://user-images.githubusercontent.com/66717834/142770181-754292b9-e235-41f8-8eaf-fb94df8c03fa.jpg)  
+There is server box wired directly to the roof of the same building through third floor, connected to an existing antenna on the opposite direction to campus.  
+![2021_11_08_ThIWert_Roof_example-antenna](https://user-images.githubusercontent.com/66717834/142770314-19352f52-9759-4e25-ba16-da2346538732.jpg)
+
+  2. In the main hall near entrance to labor and also near entrance to main building.  
+![2021_11_08_ThIWert_Server-case-main-hall](https://user-images.githubusercontent.com/66717834/142770735-e710415a-bab3-4bb0-8c4d-f59007579c55.jpg)  
+![2021_11_08_ThIWert_POE-Switch-Fastiron-Edge-2402-POE](https://user-images.githubusercontent.com/66717834/142770768-8eac2527-e6ad-4c2a-8e92-786f55840c3c.jpg)
+
 **3. Practical risks and difficulties:**
 1. After the first topology study on November 8th 2021, some difficulties have been notice:
     1. For the mounting option on the roof of ThIWert main building, it is very easy for technician to install antenna. However the roof area does not belong to ThIWert but to landlord. There is no confirmed information that the roof is available for antenna installation, yet rumor that the landlord is planning on using the roof for something else (? need reconfirmation). Another difficulty is that even if the roof is available, from the study experience and proofs such as photos of views to estimate initial signal direction in addition with Google Earth view comparision, there is high chance of obstacles, most obvious trees, blocking the signal wave.
@@ -119,5 +125,4 @@ There are 2 server containers that have PoW Switch wired to each other by Glass 
 ![2021_11_08_ThIWert_view-to-campus-horizontal_true-POV](https://user-images.githubusercontent.com/66717834/142769629-734763b0-18b0-430f-baf0-5993ff730ff3.jpg)
 ![Ggl_Earth-signal-pov](https://user-images.githubusercontent.com/66717834/142769712-cfa2c279-1a2b-4135-bf6f-6e36c6256cab.png)
 
-
-
+    2. For the mounting option on top of the heat tower, some risks have first been notice. The tower is very high with mostly no protective devices or method. Weather condition is also in concern. Technician has to climb up the tower which requires hiring professional technician and safety gears or personal protective equiments, which demand  extra cost. This option is therefore high risk high cost.
