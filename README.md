@@ -10,7 +10,11 @@ Todo list:
 
 - [ ] Building height
 
-
-
 With obstacles blocking signal, there are other options:
 First try with Laser technology 5GHz
+
+Temporary Installation/Test
+In ThIWert on the roof: ON the wall or on the ground of roof.
+In campus: On staircase
+
+Need USV unterbrechungsfreie Stromversorgung. 
