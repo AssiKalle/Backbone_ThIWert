@@ -9,4 +9,6 @@ Todo list:
 
 
 - [ ] Building height
-- [ ] 
+
+With obstacles blocking signal, there are other options:
+First try with Laser technology 5GHz
