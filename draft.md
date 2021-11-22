@@ -29,6 +29,8 @@ The goal is to create a stable network radio connection from the HS-Nordhausen t
 - Technical details:
   - [x] Glass fiber
   - [x] PoE Switch
+  - [x] Choose Laser 60/5/2.4 GHz
+  - [ ] PoE Antenna
   - [ ] Ipv4/v6
   - [ ] Mac maybe
   - [ ] Durability of antenne under weather condition
@@ -55,7 +57,7 @@ The goal is to create a stable network radio connection from the HS-Nordhausen t
 - [ ] Technical hardwares fit planned budget. 
 - [x] Glass fiber technology
 - [ ] Power over Ethernet technology, e.g. Antenna, Switch, etc.
-- [ ] 80m cable is enough
+- [ ] 80m cable
 - tbd [^1]
 
 **2. Rough planning:**
@@ -136,8 +138,16 @@ There is server box wired directly to the roof of the same building through thir
 ![Ggl_Earth-signal-pov](https://user-images.githubusercontent.com/66717834/142769712-cfa2c279-1a2b-4135-bf6f-6e36c6256cab.png)
 
     2. For the mounting option on top of the heat tower, some risks have first been notice. The tower is very high with mostly no protective devices or method. Weather condition is also in concern. Technician has to climb up the tower which requires hiring professional technician and safety gears or personal protective equiments, which demand  extra cost. The distance between the tower and server box is also far. This option is therefore high risk high cost and should only be deadend solution.
+    
+    3. For mounting option in campus, ...
 
 https://user-images.githubusercontent.com/66717834/142772420-a6c32e5f-44b6-4808-81d0-4b37938e5b4f.mp4
+
+**Installation:**
+1. After discussing with supervisor, the conclusion is that Laser 60 GHz is impossible to transmit signal direct through objectives like trees, so the first solution is using Laser 5 GHz and if it is still not possible then Laser 2.4 GHz. There are sample antennas in Labor so that a temporary installation is possible.
+In ThIWert, there are 2 possible place on the roof of main building that will be tested for mounting: On the wall of the small entrance or on the ground of the roof.
+Antenna will also be set on the top of the staircase next to the entrance of the library (possible nearest to the planning mounting point)
+
 
 Access to cabling is still needed.
 
