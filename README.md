@@ -17,4 +17,4 @@ Temporary Installation/Test
 In ThIWert on the roof: ON the wall or on the ground of roof.
 In campus: On staircase
 
-Need USV unterbrechungsfreie Stromversorgung. 
+Need USV unterbrechungsfreie Stromversorgung. (gestell von Thomas)
