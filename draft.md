@@ -139,16 +139,19 @@ There is server box wired directly to the roof of the same building through thir
 
     2. For the mounting option on top of the heat tower, some risks have first been notice. The tower is very high with mostly no protective devices or method. Weather condition is also in concern. Technician has to climb up the tower which requires hiring professional technician and safety gears or personal protective equiments, which demand  extra cost. The distance between the tower and server box is also far. This option is therefore high risk high cost and should only be deadend solution.
     
-    3. For mounting option in campus, ...
+    3. For mounting option in campus, tbd [^1]
 
 https://user-images.githubusercontent.com/66717834/142772420-a6c32e5f-44b6-4808-81d0-4b37938e5b4f.mp4
 
-**Installation:**
-1. After discussing with supervisor, the conclusion is that Laser 60 GHz is impossible to transmit signal direct through objectives like trees, so the first solution is using Laser 5 GHz and if it is still not possible then Laser 2.4 GHz. There are sample antennas in Labor so that a temporary installation is possible.
+**4. Installation:**
+1. Solution:
+After discussing with supervisor, the conclusion is that Laser 60 GHz istheoretically impossible to transmit signal direct through objectives like trees, so the first solution is using Laser 5 GHz and if it is still not possible then Laser 2.4 GHz. There are 2 sample antennas in Labor so that a temporary installation is possible.
 In ThIWert, there are 2 possible place on the roof of main building that will be tested for mounting: On the wall of the small entrance or on the ground of the roof.
 Antenna will also be set on the top of the staircase next to the entrance of the library (possible nearest to the planning mounting point)
 
+Update November 29th 2021: Thomas the supervisor had ordered an uninterrupted power suply (UPS) for Installation Test.
 
-Access to cabling is still needed.
-
+2. Preparation for Live Experiment:
+  Design Hardware and Software setup:
+  - 
 ## III. Operating: not yet
