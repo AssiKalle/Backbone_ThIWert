@@ -153,5 +153,5 @@ Update November 29th 2021: Thomas the supervisor had ordered an uninterrupted po
 
 2. Preparation for Live Experiment:
   Design Hardware and Software setup:
-  - 
+  - 2 PoW antennas with ip 192.168.88.3 - 4 /24
 ## III. Operating: not yet
