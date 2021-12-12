@@ -139,7 +139,7 @@ https://user-images.githubusercontent.com/66717834/142772420-a6c32e5f-44b6-4808-
 
 **4. Installation:**
 1. Solution:
-After discussing with supervisor, the conclusion is that Laser 60 GHz istheoretically impossible to transmit signal direct through objectives like trees, so the first solution is using Laser 5 GHz and if it is still not possible then Laser 2.4 GHz. There are 2 sample antennas in Labor so that a temporary installation is possible.
+After discussing with supervisor, the conclusion is that Laser 60 GHz is theoretically impossible to transmit signal direct through objectives like trees, so the first solution is using Laser 5 GHz and if it is still not possible then Laser 2.4 GHz. There are 2 sample antennas in Labor so that a temporary installation is possible.
 In ThIWert, there are 2 possible place on the roof of main building that will be tested for mounting: On the wall of the small entrance or on the ground of the roof.
 Antenna will also be set on the top of the staircase next to the entrance of the library (possible nearest to the planning mounting point)
 
