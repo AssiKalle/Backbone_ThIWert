@@ -20,9 +20,10 @@ The goal is to create a stable network radio connection from the HS-Nordhausen t
   - [ ] Detail expectation, e.g. bandwidth, etc.
 
 1.1.2. Sub demand and condition:
-- Mounting option:
+- Mounting conditions:
   - [x] Distance between location
   - [ ] Safety
+  - [ ] Topology
 - Technical details:
   - [x] Glass fiber
   - [x] PoE Switch
@@ -60,7 +61,7 @@ The goal is to create a stable network radio connection from the HS-Nordhausen t
 - [x] Distance estimation and calculation and in practice
 - [x] Look for obstacle theoretically and practically
 - [ ] Check weather condition
-- [x] Have meetings for to research about conditions and requirements as well as demands
+- [x] Have meetings to research about conditions and requirements as well as demands
 - [x] Topographic survey
 - [ ] Research about routing device that fits budget
 - [ ] Perform test installation
