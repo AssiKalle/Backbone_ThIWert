@@ -151,5 +151,5 @@ Antenna will also be set on the top of the staircase next to the entrance of the
   - 1 antenna is planned to be set on top of staircase in Campus next to the Library, aka neareast posible test position.
   - 1 antenna is planned to be set on either floor of ThIWert roof or on the wall of the small entrance to the roof.
   
-    
+
 ## III. Operating: not yet
