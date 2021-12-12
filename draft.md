@@ -8,14 +8,12 @@ The goal is to create a stable network radio connection from the HS-Nordhausen t
 ***1.1. Conditions and requirements:***  
 1.1.1. Main consideration:
 - Choosing mounting location
-  - [x] Which building? Options are building 18, 19 and ThIWert
-  - [x] Particular location
+  - [x] Campus Nordhausen: Library roof
+  - [ ] Within ThIWert:
 - Budget, cost
   - [ ] Maximum budget number
   - [ ] Number of devices needed
-- Time
-  - Presumably 2 months
-  - [ ] Ask for time limit
+- Time: Estimated time required for full project is one semester.
 - Quality requirement
   - Presumably the connection is flawlessly
   - The reliability and a high speed are main issues.
@@ -24,15 +22,13 @@ The goal is to create a stable network radio connection from the HS-Nordhausen t
 1.1.2. Sub demand and condition:
 - Mounting option:
   - [x] Distance between location
-  - [ ] Building height to calculate height difference
   - [ ] Safety
 - Technical details:
   - [x] Glass fiber
   - [x] PoE Switch
-  - [x] Choose Laser 60/5/2.4 GHz
-  - [ ] PoE Antenna
-  - [ ] Ipv4/v6
-  - [ ] Mac maybe
+  - [ ] Choose Laser 5/2.4 GHz
+  - [x] PoE Antenna
+  - [x] Ipv4/v6
   - [ ] Durability of antenne under weather condition
   - [ ] other details
 - Weather condition
@@ -56,24 +52,26 @@ The goal is to create a stable network radio connection from the HS-Nordhausen t
 ***1.4. Expectation:***
 - [ ] Technical hardwares fit planned budget. 
 - [x] Glass fiber technology
-- [ ] Power over Ethernet technology, e.g. Antenna, Switch, etc.
+- [x] Power over Ethernet technology, e.g. Antenna, Switch, etc.
 - [ ] 80m cable
 - tbd [^1]
 
 **2. Rough planning:**
 - [x] Distance estimation and calculation and in practice
-- [x] Height difference
 - [x] Look for obstacle theoretically and practically
 - [ ] Check weather condition
-- [ ] Have a meeting to research about conditions and requirements as well as demands
-- [ ] Topographic survey
+- [x] Have meetings for to research about conditions and requirements as well as demands
+- [x] Topographic survey
 - [ ] Research about routing device that fits budget
+- [ ] Perform test installation
 - [ ] tbd [^1]
 
 **3. Detail planning:**  
-For distance estimation, Google Earth is our option. This distances from middle of Haus 18 and 19 to side entrance of ThIWert building are estimately calculated.
-Many appointments are required for topology research for exact locations and views of mounting options and possible weather condition. There are also some details needed to notice such as cable access, estimated length of cable, technical devices, etc.
-To reduce additional power suply, it is fairly good if Power over Ethernet is applied. For safety purpose, PoW Antenna should have max 48V DC. The best option to transmit internet signal to end devices is Glass Fiber.
+For distance estimation, Google Earth is optimal. After topographic survey, information has been compared with estimated data for correction.  
+Presumably maximum 3 to 4 appointments are required for topology research for exact locations and views of mounting options and possible weather condition. There are also some details needed to notice such as cable access, estimated length of cable, technical devices, etc.  
+To reduce additional power suply, it is fairly good if Power over Ethernet is applied. For safety purpose, PoE Antenna should have max 48V DC. The best option to transmit internet signal to end devices is Glass Fiber.  
+Test installation and configuration of PoE Antennas in Labor.
+
 tbd [^1]
 
 **4. Contact details:**  
@@ -87,7 +85,7 @@ tbd [^1]
 
 ## II. Implementation:
 
-**1. Condition research:**  
+**1. Condition research and preparation:**  
 Due to known information, there are two variants from which the antenna(s) can be installed. They are building 18 and building 19. Distance will be measured from south side of both buildings, since ThIWert main building ist positioned southern from Campus, and from north side of ThIWert main building. Assuming that installation points can be roughly on the southern wall of buildings 18 and 19 and on northern wall of ThIWert building, the measured/estimated distances via Google Earth are:
 
 |Distance from H18|Distance from H19|Height difference
@@ -114,12 +112,7 @@ The true distances measured from Library via Google Earth are:
 ![Ggl_Earth-lib-tower](https://user-images.githubusercontent.com/66717834/142769886-6b143490-8d0b-4b3e-be97-543b18d1b65b.png)[^3]
 [^3]: Distance to heat tower.
 
-Height difference from library roof (192+ m):
-|To main building roof|To heat tower top|
-| - | - |
-|177+ m|177+ m|
-
-There are 2 server containers that have PoW Switch wired to each other by Glass Fiber cable (? need reconfirmation):
+There are 2 server containers that have PoE Switch wired to each other by Glass Fiber cable (? need reconfirmation):
   1. On the second floor of main building, in technical room.  
 ![2021_11_08_ThIWert_main-building-server-box-with-glasfaser](https://user-images.githubusercontent.com/66717834/142770168-a310233f-71ac-486b-8e06-2ad119a2a335.jpg)![2021_11_08_ThIWert_main-building-server-box-with-glasfaser1](https://user-images.githubusercontent.com/66717834/142770181-754292b9-e235-41f8-8eaf-fb94df8c03fa.jpg)  
 There is server box wired directly to the roof of the same building through third floor, connected to an existing antenna on the opposite direction to campus.  
@@ -149,9 +142,14 @@ After discussing with supervisor, the conclusion is that Laser 60 GHz istheoreti
 In ThIWert, there are 2 possible place on the roof of main building that will be tested for mounting: On the wall of the small entrance or on the ground of the roof.
 Antenna will also be set on the top of the staircase next to the entrance of the library (possible nearest to the planning mounting point)
 
-Update November 29th 2021: Thomas the supervisor had ordered an uninterrupted power suply (UPS) for Installation Test.
-
 2. Preparation for Live Experiment:
-  Design Hardware and Software setup:
-  - 2 PoW antennas with ip 192.168.88.3 - 4 /24
+  1. Update November 29th 2021: Thomas the supervisor had ordered an uninterrupted power suply (UPS) for Installation Test.
+  Design Hardware and Software setup: 
+  - 2 PoE antennas with ip 192.168.88.3/24 and 192.168.88.4/24
+  
+  Plan for pratical test installation has also been drafted:
+  - 1 antenna is planned to be set on top of staircase in Campus next to the Library, aka neareast posible test position.
+  - 1 antenna is planned to be set on either floor of ThIWert roof or on the wall of the small entrance to the roof.
+  
+    
 ## III. Operating: not yet
