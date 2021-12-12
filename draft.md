@@ -152,5 +152,12 @@ Antenna will also be set on the top of the staircase next to the entrance of the
   - 1 antenna is planned to be set on top of staircase in Campus next to the Library, aka neareast posible test position.
   - 1 antenna is planned to be set on either floor of ThIWert roof or on the wall of the small entrance to the roof.
   
-
+  Connection between 2 antennas must be configured and tested.
+  After power plugged in and antennas wired to laptops, we have to set our own ethernet0 ipv4. I choose 192.168.88.110 and AssiKalle choose 192.168.88.100. We ping to each other's antenna at 192.168.88.3 and 192.168.88.4 respectively. There is no package loss.
+  Configuration is performed by Windows Commandline/PowerShell and WSL Ubuntu. We use iperf commandline, where one opens a connection as server with  
+  ```
+  iperf3 -s  
+  ```
+  and the other connects to that server 
+  
 ## III. Operating: not yet
