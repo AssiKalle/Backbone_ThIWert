@@ -124,7 +124,7 @@ There is server box wired directly to the roof of the same building through thir
 ![2021_11_08_ThIWert_POE-Switch-Fastiron-Edge-2402-POE](https://user-images.githubusercontent.com/66717834/142770768-8eac2527-e6ad-4c2a-8e92-786f55840c3c.jpg)
 
 **3. Practical risks and difficulties:**
-1. After the first topology study on November 8th 2021, some difficulties have been notice:
+After the first topology study on November 8th 2021, some difficulties have been notice:
     1. For the mounting option on the roof of ThIWert main building, it is very easy for technician to install antenna. However the roof area does not belong to ThIWert but to the landlord. There is no confirmed information that the roof is available for antenna installation, yet rumor that the landlord is planning on using the roof for something else (? need reconfirmation). Another difficulty is that even if the roof is available, from the study experience and proofs such as photos of views to estimate initial signal direction in addition with Google Earth view comparision, there is high chance of obstacles, most obvious trees, blocking the signal wave.
 ![Ggl_Earth-signal-blockers](https://user-images.githubusercontent.com/66717834/142770088-7826b05e-a090-480d-961d-1851048cf623.png)
 *the bold area has the most potential of obstacles (trees, etc.) blocking signal*
@@ -154,10 +154,28 @@ Antenna will also be set on the top of the staircase next to the entrance of the
   
   Connection between 2 antennas must be configured and tested.
   After power plugged in and antennas wired to laptops, we have to set our own ethernet0 ipv4. I choose 192.168.88.110 and AssiKalle choose 192.168.88.100. We ping to each other's antenna at 192.168.88.3 and 192.168.88.4 respectively. There is no package loss.
-  Configuration is performed by Windows Commandline/PowerShell and WSL Ubuntu. We use iperf commandline, where one opens a connection as server with  
+  Configuration is performed by Windows Commandline/PowerShell and WSL Ubuntu. We use iperf commandline, where one opens a connection as server via Ubuntu
   ```
-  iperf3 -s  
+  iperf3 -s [ipv4]
   ```
-  and the other connects to that server 
+  or PowerShell/Cmd
+  ```
+  iperf3.exe -s [ipv4]
+  ```
+  ![iperf-s-110](https://user-images.githubusercontent.com/66717834/145724225-11863f88-76f1-41d3-9ecf-4fe693fffced.jpeg)
   
+  and the other connects to that server as client via Ubuntu
+  ```
+  iperf3 -c [ipv4] -p [port]  
+  ```
+  or via PowerShell/Cmd
+  ```
+  iperf3.exe -c [ipv4] -p [port]  
+  ```
+  ![iperf-c](https://user-images.githubusercontent.com/66717834/145724197-73d7d01e-2b3e-41ef-bdb0-2e146d75343d.jpeg)
+
+  There was 1 unknown technical issue that at some early attempts we couldn't ping directly to each other, only to the antennas. Both devices could also not connect to each other via iperf3.
+  
+  2. Update December 6th 2021:
+  After whole session trying to find the cause for not connectable, we have found out that the problem was that cables were loosely plugged in PoE Antennas outlets, so that not all lamps lighted up and the Antennas did not function properly, particularly did not generate signal. After few attempts with different cables and holding positions, we manage to light up all the router lamps. Therefore connection has been established as shown from 2 photos above.
 ## III. Operating: not yet
