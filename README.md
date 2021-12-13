@@ -17,9 +17,9 @@ Temporary Installation/Test
 In ThIWert on the roof: ON the wall or on the ground of roof.
 In campus: On staircase
 
-Need USV unterbrechungsfreie Stromversorgung. (gestell von Thomas)
-
+Need UBV unterbrechungsfreie Stromversorgung. (gestell von Thomas)
+399
 
 Sample 5 GHz
 
-new devices 60 GHz
+new devices 60 GHz 399 bis zu 12km Ansichtverbindung
