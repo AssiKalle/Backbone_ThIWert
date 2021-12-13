@@ -18,3 +18,8 @@ In ThIWert on the roof: ON the wall or on the ground of roof.
 In campus: On staircase
 
 Need USV unterbrechungsfreie Stromversorgung. (gestell von Thomas)
+
+
+Sample 5 GHz
+
+new devices 60 GHz
