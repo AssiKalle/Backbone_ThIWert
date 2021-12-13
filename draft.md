@@ -11,8 +11,8 @@ The goal is to create a stable network radio connection from the HS-Nordhausen t
   - [x] Campus Nordhausen: Library roof
   - [ ] Within ThIWert:
 - Budget, cost
-  - [ ] Maximum budget number
-  - [ ] Number of devices needed
+  - [x] 2 PoE Antennas Airfiber Ubiquiti 60 LR, €399 each
+  - [x] APC Back-UPS Es 700, €138
 - Time: Estimated time required for full project is one semester.
 - Quality requirement
   - Presumably the connection is flawlessly
@@ -154,6 +154,22 @@ Antenna will also be set on the top of the staircase next to the entrance of the
   
   Connection between 2 antennas must be configured and tested.
   After power plugged in and antennas wired to laptops, we have to set our own ethernet0 ipv4. I choose 192.168.88.110 and AssiKalle choose 192.168.88.100. We ping to each other's antenna at 192.168.88.3 and 192.168.88.4 respectively. There is no package loss.
+  Devices interface is accessed via
+  ```
+  192.168.88.3
+  ```
+  and
+  ```
+  192.168.88.4
+  ```
+  with username:
+  ```
+  root
+  ```
+  and password:
+  ```
+  Sommer4
+  ```
   Configuration is performed by Windows Commandline/PowerShell and WSL Ubuntu. We use iperf commandline, where one opens a connection as server via Ubuntu
   ```
   iperf3 -s [ipv4]
@@ -178,4 +194,7 @@ Antenna will also be set on the top of the staircase next to the entrance of the
   
   2. Update December 6th 2021:
   After whole session trying to find the cause for not connectable, we have found out that the problem was that cables were loosely plugged in PoE Antennas outlets, so that not all lamps lighted up and the Antennas did not function properly, particularly did not generate signal. After few attempts with different cables and holding positions, we manage to light up all the router lamps. Therefore connection has been established as shown from 2 photos above.
+  
+  3. Update December 13th 2021:
+  Thomas has ordered 2 new antennas Airfiber Ubiquiti 60LR for test performance with radio signal 60GHz. After assembling components we have to set up new 
 ## III. Operating: not yet
