@@ -125,15 +125,16 @@ There is server box wired directly to the roof of the same building through thir
 
 **3. Practical risks and difficulties:**
 After the first topology study on November 8th 2021, some difficulties have been notice:
-    1. For the mounting option on the roof of ThIWert main building, it is very easy for technician to install antenna. However the roof area does not belong to ThIWert but to the landlord. There is no confirmed information that the roof is available for antenna installation, yet rumor that the landlord is planning on using the roof for something else (? need reconfirmation). Another difficulty is that even if the roof is available, from the study experience and proofs such as photos of views to estimate initial signal direction in addition with Google Earth view comparision, there is high chance of obstacles, most obvious trees, blocking the signal wave.
+
+1. For the mounting option on the roof of ThIWert main building, it is very easy for technician to install antenna. However the roof area does not belong to ThIWert but to the landlord. There is no confirmed information that the roof is available for antenna installation, yet rumor that the landlord is planning on using the roof for something else (? need reconfirmation). Another difficulty is that even if the roof is available, from the study experience and proofs such as photos of views to estimate initial signal direction in addition with Google Earth view comparision, there is high chance of obstacles, most obvious trees, blocking the signal wave.
 ![Ggl_Earth-signal-blockers](https://user-images.githubusercontent.com/66717834/142770088-7826b05e-a090-480d-961d-1851048cf623.png)
 *the bold area has the most potential of obstacles (trees, etc.) blocking signal*
 ![2021_11_08_ThIWert_view-to-campus-horizontal_true-POV](https://user-images.githubusercontent.com/66717834/142769629-734763b0-18b0-430f-baf0-5993ff730ff3.jpg)
 ![Ggl_Earth-signal-pov](https://user-images.githubusercontent.com/66717834/142769712-cfa2c279-1a2b-4135-bf6f-6e36c6256cab.png)
 
-    2. For the mounting option on top of the heat tower, some risks have first been notice. The tower is very high with mostly no protective devices or method. Weather condition is also in concern. Technician has to climb up the tower which requires hiring professional technician and safety gears or personal protective equiments, which demand  extra cost. The distance between the tower and server box is also far. This option is therefore high risk high cost and should only be deadend solution.
+2. For the mounting option on top of the heat tower, some risks have first been notice. The tower is very high with mostly no protective devices or method. Weather condition is also in concern. Technician has to climb up the tower which requires hiring professional technician and safety gears or personal protective equiments, which demand  extra cost. The distance between the tower and server box is also far. This option is therefore high risk high cost and should only be deadend solution.
     
-    3. For mounting option in campus, tbd [^1]
+3. For mounting option in campus, tbd [^1]
 
 https://user-images.githubusercontent.com/66717834/142772420-a6c32e5f-44b6-4808-81d0-4b37938e5b4f.mp4
 
@@ -144,5 +145,97 @@ In ThIWert, there are 2 possible place on the roof of main building that will be
 Antenna will also be set on the top of the staircase next to the entrance of the library (possible nearest to the planning mounting point)
 
 2. Preparation for Live Experiment:
+  1. Update November 29th 2021: Thomas the supervisor had ordered an uninterrupted power suply (UPS) for Installation Test.
+  Design Hardware and Software setup: 
+  - 2 PoE antennas with ip 
+  ```
+  192.168.88.3/24
+  ```
+  and
+  ```
+  192.168.88.4/24
+  ```
+  
+  Plan for pratical test installation has also been drafted:
+  - 1 antenna is planned to be set on top of staircase in Campus next to the Library, aka neareast posible test position.
+  - 1 antenna is planned to be set on either floor of ThIWert roof or on the wall of the small entrance to the roof.
+  
+  Connection between 2 antennas must be configured and tested.
+  After power plugged in and antennas wired to laptops, we have to set our own ethernet0 ipv4. I choose 
+  ```
+  192.168.88.110
+  ```
+  and AssiKalle choose
+  ```
+  192.168.88.100
+  ```
+  We ping to each other's antenna at 192.168.88.3 and 192.168.88.4 respectively. There is no package loss.
+  Devices interface is accessed via
+  ```
+  192.168.88.3
+  ```
+  and
+  ```
+  192.168.88.4
+  ```
+  with username:
+  ```
+  root
+  ```
+  and password:
+  ```
+  Sommer4
+  ```
+  Configuration is performed by Windows Commandline/PowerShell and WSL Ubuntu. We use iperf commandline, where one opens a connection as server via Ubuntu
+  ```
+  iperf3 -s [ipv4]
+  ```
+  or PowerShell/Cmd
+  ```
+  iperf3.exe -s [ipv4]
+  ```
+  ![iperf-s-110](https://user-images.githubusercontent.com/66717834/145724225-11863f88-76f1-41d3-9ecf-4fe693fffced.jpeg)
+  
+  and the other connects to that server as client via Ubuntu
+  ```
+  iperf3 -c [ipv4] -p [port]  
+  ```
+  or via PowerShell/Cmd
+  ```
+  iperf3.exe -c [ipv4] -p [port]  
+  ```
+  ![iperf-c](https://user-images.githubusercontent.com/66717834/145724197-73d7d01e-2b3e-41ef-bdb0-2e146d75343d.jpeg)
+
+  There was 1 unknown technical issue that at some early attempts we couldn't ping directly to each other, only to the antennas. Both devices could also not connect to each other via iperf3.
+  
+  2. Update December 6th 2021:
+  After whole session trying to find the cause for not connectable, we have found out that the problem was that cables were loosely plugged in PoE Antennas outlets, so that not all lamps lighted up and the Antennas did not function properly, particularly did not generate signal. After few attempts with different cables and holding positions, we manage to light up all the router lamps. Therefore connection has been established as shown from 2 photos above.
+  
+  3. Update December 13th 2021:
+  Thomas has ordered 2 new antennas Airfiber Ubiquiti 60LR for test performance with radio signal 60GHz. After assembling components we have to set up new username
+  ```
+  root
+  ```
+  and new password
+  ```
+  Nordhausen2021
+  ```
+  for the 2 antennas.
+  The default ip for this device is
+  ```
+  192.168.88.20/24
+  ```
+  so I set one to
+  ```
+  192.168.88.30
+  ```
+  and the other to
+  ```
+  192.168.88.40
+  ```
+  Following Thomas instruction, I have update the Firmware to both antennas to 
+  ```
+  GP.V2.6.0-BETA3.46505.211208.1235
+  ```
 
 ## III. Operating: not yet
