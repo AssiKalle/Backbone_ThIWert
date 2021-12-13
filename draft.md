@@ -145,7 +145,7 @@ In ThIWert, there are 2 possible place on the roof of main building that will be
 Antenna will also be set on the top of the staircase next to the entrance of the library (possible nearest to the planning mounting point)
 
 2. Preparation for Live Experiment:
-  1. Update November 29th 2021: Thomas the supervisor had ordered an uninterrupted power suply (UPS) for Installation Test.
+    1. Update November 29th 2021: Thomas the supervisor had ordered an uninterrupted power suply (UPS) for Installation Test.
   Design Hardware and Software setup: 
   - 2 PoE antennas with ip 
   ```
@@ -208,10 +208,10 @@ Antenna will also be set on the top of the staircase next to the entrance of the
 
   There was 1 unknown technical issue that at some early attempts we couldn't ping directly to each other, only to the antennas. Both devices could also not connect to each other via iperf3.
   
-  2. Update December 6th 2021:
+    2. Update December 6th 2021:
   After whole session trying to find the cause for not connectable, we have found out that the problem was that cables were loosely plugged in PoE Antennas outlets, so that not all lamps lighted up and the Antennas did not function properly, particularly did not generate signal. After few attempts with different cables and holding positions, we manage to light up all the router lamps. Therefore connection has been established as shown from 2 photos above.
   
-  3. Update December 13th 2021:
+    3. Update December 13th 2021:
   Thomas has ordered 2 new antennas Airfiber Ubiquiti 60LR for test performance with radio signal 60GHz. After assembling components we have to set up new username
   ```
   root
