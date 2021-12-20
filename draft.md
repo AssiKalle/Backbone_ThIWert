@@ -196,7 +196,7 @@ Design Hardware and Software setup:
     iperf3.exe -s [ipv4]
     ```
     
-    <img src="https://user-images.githubusercontent.com/66717834/145724225-11863f88-76f1-41d3-9ecf-4fe693fffced.jpeg" alt="iperf-s-110" width="600"/>!
+    <img src="https://user-images.githubusercontent.com/66717834/145724225-11863f88-76f1-41d3-9ecf-4fe693fffced.jpeg" alt="iperf-s-110"/>!
 
     and the other connects to that server as client via Ubuntu
     ```
@@ -207,7 +207,7 @@ Design Hardware and Software setup:
     iperf3.exe -c [ipv4] -p [port]  
     ```
     
-    <img src="https://user-images.githubusercontent.com/66717834/145724197-73d7d01e-2b3e-41ef-bdb0-2e146d75343d.jpeg" alt="iperf-c" width="600"/>
+    <img src="https://user-images.githubusercontent.com/66717834/145724197-73d7d01e-2b3e-41ef-bdb0-2e146d75343d.jpeg" alt="iperf-c"/>
 
     There was 1 unknown technical issue that at some early attempts we couldn't ping directly to each other, only to the antennas. Both devices could also not connect to each other via iperf3.
   
