@@ -1,12 +1,19 @@
 # Backbone ThIWert
 An AKO Project by Gin Havana and AssiKalle
 
-## I. Planning:
+## 1. Planning:
 **1. Goal:**
 The goal is to create a stable network radio connection from the HS-Nordhausen to the ThiWert. 
 
 ***1.1. Conditions and requirements:***  
 1.1.1. Main consideration:
+
+
+| - |CCampus Nordhausen|ThIWert|
+| - | - | - |
+|Counting location|Library roof|10 ~ 11 m|
+|Budget| - |
+
 - Choosing mounting location
   - [x] Campus Nordhausen: Library roof
   - [ ] Within ThIWert:
@@ -75,7 +82,12 @@ Test installation and configuration of PoE Antennas in Labor.
 
 tbd [^1]
 
-**4. Contact details:**  
+**4. Contact details:**
+|ThIWert|Medienzentrum|Supervisor|
+| - | - | - |
+| Prof. Ariane Ruff | Fred Wagner | Prof. Dr.-Ing. Thomas Hühn |
+| Admin* Mark Gassmann | - | - |
+
 1. ThIWert:
    - Prof. Ariane Ruff
    - Admin* Mark Gassmann
@@ -84,12 +96,12 @@ tbd [^1]
 3. Supervisor:
    - Prof. Dr.-Ing. Thomas Hühn
 
-## II. Implementation:
+## 2. Implementation:
 
 **1. Condition research and preparation:**  
 Due to known information, there are two variants from which the antenna(s) can be installed. They are building 18 and building 19. Distance will be measured from south side of both buildings, since ThIWert main building is positioned southern from Campus, and from north side of ThIWert main building. Assuming that installation points can be roughly on the southern wall of buildings 18 and 19 and on northern wall of ThIWert building, the measured/estimated distances via Google Earth are:
 
-|Distance from H18|Distance from H19|Height difference
+|Distance from H18|Distance from H19|Height difference|
 | - | - | - |
 |1.37 ~ 1.41 km|1.35 ~ 1.39 km|10 ~ 11 m|
 
@@ -144,10 +156,9 @@ In ThIWert, there are 2 possible place on the roof of main building that will be
 Antenna will also be set on the top of the staircase next to the entrance of the library (possible nearest to the planning mounting point)
 
 2. Preparation for Live Experiment:
-   
-    *1. Update November 29th 2021*: Thomas the supervisor had ordered an uninterrupted power suply (UPS) for Installation Test.
-Design Hardware and Software setup: 
-    - 2 PoE antennas with ip
+*2.1. Update November 29th 2021*:  
+Thomas the supervisor had ordered an uninterrupted power suply (UPS) for Installation Test.
+Design Hardware and Software setup: 2 PoE antennas
     ```
     192.168.88.3/24
     ```
@@ -195,8 +206,6 @@ Design Hardware and Software setup:
     ```
     iperf3.exe -s [ipv4]
     ```
-    
-    <img src="https://user-images.githubusercontent.com/66717834/145724225-11863f88-76f1-41d3-9ecf-4fe693fffced.jpeg" alt="iperf-s-110"/>!
 
     and the other connects to that server as client via Ubuntu
     ```
@@ -206,8 +215,6 @@ Design Hardware and Software setup:
     ```
     iperf3.exe -c [ipv4] -p [port]  
     ```
-    
-    <img src="https://user-images.githubusercontent.com/66717834/145724197-73d7d01e-2b3e-41ef-bdb0-2e146d75343d.jpeg" alt="iperf-c"/>
 
     There was 1 unknown technical issue that at some early attempts we couldn't ping directly to each other, only to the antennas. Both devices could also not connect to each other via iperf3.
   
@@ -241,4 +248,4 @@ Design Hardware and Software setup:
     GP.V2.6.0-BETA3.46505.211208.1235
     ```
 
-## III. Operating: not yet
+## 3. Operating: not yet
