@@ -14,7 +14,7 @@ Signal direction is estimated by placing one head of the drill fix on the antenn
 
 <img alt="Estimated-direction" src="https://user-images.githubusercontent.com/66717834/151767803-75076df3-8cb3-49b0-9b86-37dc4e5c1354.jpeg" height="600px">
 
-After plugging in the two cables, Thomas set up the position 
+After plugging in the two cables, Thomas set up the position for the cable to run straight to the POE Switches Lan Port while the POE Port is connected to a 4900 TPLink Router as Power and Internet source. Two cables are binded together from which the cable connect to the 60GHz is marked blue and the other is mark red. Valerius has examined and verified through the web interface that both antenna function correctly.
 
 
 2. Signal testing in Campus:
