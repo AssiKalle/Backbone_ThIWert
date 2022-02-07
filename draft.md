@@ -8,7 +8,7 @@ The goal is to create a stable network radio connection from the HS-Nordhausen t
 ***1.1. Conditions and requirements:***  
 1.1.1. Main consideration:
 - Location:
-- 
+
 | Mounting location | Campus Nordhausen | ThIWert |
 | - | - | - |
 | Chosen | Library roof | still provition |
