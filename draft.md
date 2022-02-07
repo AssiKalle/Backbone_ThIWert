@@ -7,10 +7,11 @@ The goal is to create a stable network radio connection from the HS-Nordhausen t
 
 ***1.1. Conditions and requirements:***  
 1.1.1. Main consideration:
-
-- Choosing mounting location
-  - [x] Campus Nordhausen: Library roof
-  - [ ] Within ThIWert:
+- Location:
+- 
+| Mounting location | Campus Nordhausen | ThIWert |
+| - | - | - |
+| Chosen | Library roof | still provition |
 - Budget, cost:
 
 | Name | Amount | Total cost |
@@ -32,14 +33,14 @@ The goal is to create a stable network radio connection from the HS-Nordhausen t
 - Technical details:
   - [x] Glass fiber
   - [x] PoE Switch
-  - [ ] Choose Laser 5/2.4 GHz
+  - [ ] Choose Laser 60/5/2.4 GHz
   - [x] PoE Antenna
   - [x] Ipv4/v6
-  - [ ] Durability of antenne under weather condition
+  - [ ] Durability of antenna under weather condition
   - [ ] other details
 - Weather condition
-  - [ ] Wind speed on install day
-- Obstacle between mounting location
+  - [x] Wind speed on install day
+- Obstacle between mounting location: There be a lot of trees between two set up location.
 
 ***1.2. Premeasured risks:***
 - Low budget or hardware has high cost
@@ -56,7 +57,7 @@ The goal is to create a stable network radio connection from the HS-Nordhausen t
 - What if the project is unsuccessful?
 
 ***1.4. Expectation:***
-- [ ] Technical hardwares fit planned budget. 
+- [x] Technical hardwares fit planned budget. 
 - [x] Glass fiber technology
 - [x] Power over Ethernet technology, e.g. Antenna, Switch, etc.
 - [ ] 80m cable
@@ -65,11 +66,11 @@ The goal is to create a stable network radio connection from the HS-Nordhausen t
 **2. Rough planning:**
 - [x] Distance estimation and calculation and in practice
 - [x] Look for obstacle theoretically and practically
-- [ ] Check weather condition
+- [x] Check weather condition
 - [x] Have meetings to research about conditions and requirements as well as demands
 - [x] Topographic survey
-- [ ] Research about routing device that fits budget
-- [ ] Perform test installation
+- [x] Research about routing device that fits budget
+- [x] Perform test installation
 - [ ] tbd [^1]
 
 **3. Detail planning:**  
@@ -150,13 +151,12 @@ Antenna will also be set on the top of the staircase next to the entrance of the
 
 2. Preparation for Live Experiment:  
 Design Hardware and Software setup:  
-
 | -------- | PoE antennas (GHz) | Device IPv4      | ethernet0 IPv4 | username | password       | Firmware                          |
 | -------- | ------------------ | ---------------- | -------------- | -------- | -------------- | --------------------------------- |
-| DH       | 5                  | 192.168.88.3/24  | 192.168.88.110 | root     | sommer4        | --------------------------------- |
-| -------- | 60                 | 192.168.88.20/24 | 192.168.88.30  | root     | Nordhausen2021 | GP.V2.6.0-BETA3.46505.211208.1235 |
-| Valerius | 5                  | 192.168.88.4/24  | 192.168.88.100 | root     | sommer4        | --------------------------------- |
-| -------- | 60                 | 192.168.88.20/24 | 192.168.88.40  | root     | Nordhausen2021 | GP.V2.6.0-BETA3.46505.211208.1235 |
+| THIWert       | 5                  | 192.168.88.3/24  | 192.168.88.110 | root     | Sommer4        | --------------------------------- |
+| THIWert | 60                 | 192.168.88.30/24 | 192.168.88.30  | root     | Nordhausen2021 | GP.V2.6.0-RC.46590.211230.1238 |
+| HS | 5                  | 192.168.88.4/24  | 192.168.88.100 | root     | Sommer4        | --------------------------------- |
+| HS | 60                 | 192.168.88.20/24 | 192.168.88.40  | root     | Nordhausen2021 | GP.V2.6.0-RC.46590.211230.1238 |
 
 *2.1. Update November 29th 2021:*  
 Thomas the supervisor had ordered an uninterrupted power suply (UPS) for Installation Test.  
@@ -181,4 +181,29 @@ After whole session trying to find the cause for not connectable, we have found 
 *2.3. Update December 13th 2021:*
 Thomas has ordered 2 new antennas Airfiber Ubiquiti 60LR for test performance with radio signal 60GHz.
 
-## 3. Operating: not yet
+## 3. Operating:
+### 1. First attempt January 24th 2022:
+1. Installation in ThIWert (A good provision):  
+The appointment meeting for mounting atempt is 8 am and it is expected to take 1 to 2 hour(s) to finish. Two antennas, each for different bandwidth 
+After arriving at ThIWert and on the roof, it is required that we recheck the photos for estimated signal direction. Thomas has suggested that we choose the closer edge of the entrance to Campus direction as first mounting option, which is 380cm away from the entrance. Thomas has also help with the drilling through a 27cm thick wall to set up the antenna holder and a way for 2 testing cables to go through.
+
+<img alt="Thomas-drilling" src="https://user-images.githubusercontent.com/66717834/151765358-a33526f1-06ca-4c34-8fc2-c19f1ff9f60e.jpeg" width="500px">
+
+After fixing the antenna holder, 2 antennas are mounted where the 5GHz is set below and the 60GHz is set above.
+
+<img alt="Test-build" src="https://user-images.githubusercontent.com/66717834/151766715-7e5c6d60-954d-45b8-8580-06cb050e2096.jpeg" width="450px"><img alt="Test-build1" src="https://user-images.githubusercontent.com/66717834/151767057-0be70c3d-3cfd-4e9c-9ef3-3527e34b0458.jpeg" width="450px">
+
+Signal direction is estimated by placing one head of the drill fix on the antenna holder and pointing the other head following the pre-estimated direction with Google Earth.
+
+<img alt="Estimated-direction" src="https://user-images.githubusercontent.com/66717834/151767803-75076df3-8cb3-49b0-9b86-37dc4e5c1354.jpeg" height="600px">
+
+After plugging in the two cables, Thomas set up the position for the cable to run straight to the POE Switches Lan Port while the POE Port is connected to a 4900 TPLink Router as Power and Internet source. Two cables are binded together from which the cable connect to the 60GHz is marked blue and the other is mark red. Valerius has examined and verified through the web interface that both antenna function correctly. These antennas will be tested as transmitter.
+
+2. Antenna temporary set up and signal testing in Campus:
+Thomas has asked the house keeper for a big tripod to temporary set up antenna on top of staircase. Due to visible obstacles only antenna 5GHz has been used for testing as receiver. Power is provided by uninterrupted power suplier (UPS). Signal strength is tested by adjusting tripod position and antenna direction and displayed on Valerius laptop web interface. It is recorded that minimum average for constant signal strength can vary between 1 to 7 Mbps and maximum average can reach between 40 to 70 Mbps and then decrease. There are two times the signal has jumped up to 330 Mpbs for shorter than a second. 
+
+3. Conclusion:
+Bad weather condition and clearly visible obstacles are the most possible reason for bad signal records. Secondary reason can be incorrect set up antennas direction between ThIWert and staircase in Campus.
+
+4. Solution:
+First solution is another performance test on the roof of library where the vision is clearer with less chance of obstacles. Additional solution is to re-adjust antennas direction in ThIWert.
