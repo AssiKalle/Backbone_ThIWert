@@ -112,10 +112,10 @@ The true distances measured from Library via Google Earth are:
 | - | - |
 |1.45 km|1.4 km|
 
-![Ggl_Earth-lib-main](https://user-images.githubusercontent.com/66717834/142769870-bb3dea9f-3266-4d89-a3d2-daaebadc317f.png) [^2]
+![Ggl_Earth-lib-main](https://user-images.githubusercontent.com/73235656/148754880-eb0698a9-0673-4b60-ab5e-603409d5ca8a.png) [^2]
 [^2]: Distance to main building roof.
 
-![Ggl_Earth-lib-tower](https://user-images.githubusercontent.com/66717834/142769886-6b143490-8d0b-4b3e-be97-543b18d1b65b.png)[^3]
+![Ggl_Earth-lib-tower](https://user-images.githubusercontent.com/73235656/148755349-722fc940-5aa9-4718-9bc3-a41f31d546a9.png)[^3]
 [^3]: Distance to heat tower.
 
 There are 2 server containers that have PoE Switch wired to each other by Glass Fiber cable (? need reconfirmation):
@@ -153,9 +153,9 @@ Design Hardware and Software setup:
 
 | -------- | PoE antennas (GHz) | Device IPv4      | ethernet0 IPv4 | username | password       | Firmware                          |
 | -------- | ------------------ | ---------------- | -------------- | -------- | -------------- | --------------------------------- |
-| DH       | 5                  | 192.168.88.3/24  | 192.168.88.110 | root     | Sommer4        | --------------------------------- |
+| DH       | 5                  | 192.168.88.3/24  | 192.168.88.110 | root     | sommer4        | --------------------------------- |
 | -------- | 60                 | 192.168.88.20/24 | 192.168.88.30  | root     | Nordhausen2021 | GP.V2.6.0-BETA3.46505.211208.1235 |
-| Valerius | 5                  | 192.168.88.4/24  | 192.168.88.100 | root     | Sommer4        | --------------------------------- |
+| Valerius | 5                  | 192.168.88.4/24  | 192.168.88.100 | root     | sommer4        | --------------------------------- |
 | -------- | 60                 | 192.168.88.20/24 | 192.168.88.40  | root     | Nordhausen2021 | GP.V2.6.0-BETA3.46505.211208.1235 |
 
 *2.1. Update November 29th 2021:*  
