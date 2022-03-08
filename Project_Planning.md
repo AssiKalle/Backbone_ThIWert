@@ -40,8 +40,6 @@ The goal for this project is to create a stable network radio connection between
 - Malfunction hardware or inconfigurable software technology
 - Bad weather
 - To many obstacles interrupting signal
-- tbd [^1] due to multiple attempts if fail
-[^1]: to be determined.
 
 ***1.3. Expectation:***
 - [x] Technical hardwares fit planned budget. 
@@ -49,7 +47,6 @@ The goal for this project is to create a stable network radio connection between
 - [x] Power over Ethernet technology, e.g. Antenna, Switch, etc.
 - [ ] Connection via 60 GHz antennas
 - [ ] 80m cable
-- tbd [^1]
 
 **2. Rough planning:**
 - [x] Distance estimation and calculation and in practice
@@ -59,7 +56,6 @@ The goal for this project is to create a stable network radio connection between
 - [x] Topographic survey
 - [x] Research about routing device that fits budget
 - [x] Perform test installation
-- [ ] tbd [^1]
 
 **3. Detail planning:**  
 For distance estimation, Google Earth is optimal. After topographic survey, information has been compared with estimated data for correction.  
@@ -197,3 +193,4 @@ Bad weather condition and clearly visible obstacles are the most possible reason
 4. Solution:  
 First solution is another performance test on the roof of library where the vision is clearer with less chance of obstacles. Additional solution is to re-adjust antennas direction in ThIWert.
 ## 4. References:
+References collection:https://www.zotero.org/groups/4479602/backbone_thiwert/library
