@@ -2,8 +2,8 @@
 An AKO Project by Gin Havana and AssiKalle
 
 ## 1. Planning:
-**1. Goal:**
-The goal is to create a stable network radio connection from the HS-Nordhausen to the ThiWert. 
+**1. Goal:**  
+The goal for this project is to create a stable network radio connection between the HS-Nordhausen and the ThIWert. 
 
 ***1.1. Conditions and requirements:***  
 1.1.1. Main consideration:
@@ -20,16 +20,9 @@ The goal is to create a stable network radio connection from the HS-Nordhausen t
 | (Battery) APC Back-UPS Es | 1 | €138|
 
 - Time: Estimated time required for full project is one semester.
-- Quality requirement
-  - Presumably the connection is flawlessly
-  - The reliability and a high speed are main issues.
-  - [ ] Detail expectation, e.g. bandwidth, etc.
 
-1.1.2. Sub demand and condition:
-- Mounting conditions:
-  - [x] Distance between location
-  - [ ] Safety
-  - [ ] Topology
+1.1.2. Quality requirement:
+- Presumably the connection is flawless with highspeed internet (high frequency signals are reachable and durable)
 - Technical details:
   - [x] Glass fiber
   - [x] PoE Switch
@@ -37,12 +30,10 @@ The goal is to create a stable network radio connection from the HS-Nordhausen t
   - [x] PoE Antenna
   - [x] Ipv4/v6
   - [ ] Durability of antenna under weather condition
-  - [ ] other details
-- Weather condition
-  - [x] Wind speed on install day
-- Obstacle between mounting location: There be a lot of trees between two set up location.
+- Weather condition on install day and durability of connection under bad weathher
+- Obstacle between mounting location
 
-***1.2. Premeasured risks:***
+***1.2. Predicted risks:***
 - Low budget or hardware has high cost
 - In practice it will take more time than limited/expected time
 - No suitable mounting point
@@ -52,14 +43,11 @@ The goal is to create a stable network radio connection from the HS-Nordhausen t
 - tbd [^1] due to multiple attempts if fail
 [^1]: to be determined.
 
-***1.3. Consequences:***
-- How willing is the client to take risks?
-- What if the project is unsuccessful?
-
-***1.4. Expectation:***
+***1.3. Expectation:***
 - [x] Technical hardwares fit planned budget. 
 - [x] Glass fiber technology
 - [x] Power over Ethernet technology, e.g. Antenna, Switch, etc.
+- [ ] Connection via 60 GHz antennas
 - [ ] 80m cable
 - tbd [^1]
 
@@ -75,11 +63,11 @@ The goal is to create a stable network radio connection from the HS-Nordhausen t
 
 **3. Detail planning:**  
 For distance estimation, Google Earth is optimal. After topographic survey, information has been compared with estimated data for correction.  
-Presumably maximum 3 to 4 appointments are required for topology research for exact locations and views of mounting options and possible weather condition. There are also some details needed to notice such as cable access, estimated length of cable, technical devices, etc.  
-To reduce additional power suply, it is fairly good if Power over Ethernet is applied. For safety purpose, PoE Antenna should have max 48V DC. The best option to transmit internet signal to end devices is Glass Fiber.  
-Test installation and configuration of PoE Antennas in Labor.
-
-tbd [^1]
+Presumably maximum 3 to 4 appointments are required for topology research for exact locations and views as well as signal direction of mounting options and possible weather condition. There are also some details needed to notice such as cable access, estimated length of cable, technical devices, etc.  
+To reduce additional power suply, it is fairly good if Power over Ethernet technology is applied. For safety purpose, PoE Antenna should have max 48V DC. The best option to transmit internet signal to end devices is Glass Fiber.  
+Test installation and configuration of PoE Antennas should be prepared in Labor.
+Practical installations should also take 3 to 4 appointments to adjust technical details e.g. signal direction, practical devices configuration, etc.
+Performance and durability test should be performed after practical installations.
 
 **4. Contact details:**
 1. ThIWert:
@@ -104,8 +92,8 @@ There is low chance of any posible obstacle blocking signal.
 **2. Topology implementation:**  
 1. The first topology research was on November 8th 2021.  
 There are 2 options of antenna mounting location at ThIWert:
-    1. - [ ] on the roof of the main building
-    2. - [ ] on top of the side tower
+    1. On the roof of the main building
+    2. On top of the side tower
 The first optimal option which had been studied is Library roof's bottom right corner (via Google Map/Earth).
 
 The true distances measured from Library via Google Earth are:
@@ -144,13 +132,14 @@ After the first topology study on November 8th 2021, some difficulties have been
 https://user-images.githubusercontent.com/66717834/142772420-a6c32e5f-44b6-4808-81d0-4b37938e5b4f.mp4
 
 **4. Installation:**
-1. Solution:
+1. Prediction:
 After discussing with supervisor, the conclusion is that Laser 60 GHz is theoretically impossible to transmit signal direct through objectives like trees, so the first solution is using Laser 5 GHz and if it is still not possible then Laser 2.4 GHz. There are 2 sample antennas 5 GHz in Labor so that a temporary installation is possible.
 In ThIWert, there are 2 possible place on the roof of main building that will be tested for mounting: On the wall of the small entrance or on the ground of the roof.
 Antenna will also be set on the top of the staircase next to the entrance of the library (possible nearest to the planning mounting point)
 
 2. Preparation for Live Experiment:  
 Design Hardware and Software setup:  
+
 | -------- | PoE antennas (GHz) | Device IPv4      | ethernet0 IPv4 | username | password       | Firmware                          |
 | -------- | ------------------ | ---------------- | -------------- | -------- | -------------- | --------------------------------- |
 | THIWert       | 5                  | 192.168.88.3/24  | 192.168.88.110 | root     | Sommer4        | --------------------------------- |
@@ -175,10 +164,10 @@ Configuration is performed by Windows Commandline/PowerShell and WSL Ubuntu. We 
 
 There was 1 unknown technical issue that at some early attempts we couldn't ping directly to each other, only to the antennas. Both devices could also not connect to each other via iperf3. Connection between admin devices (laptops) through switch is still working.
   
-*2.2. Update December 6th 2021:*
+*2.2. Update December 6th 2021:*  
 After whole session trying to find the cause for not connectable, we have found out that the problem was that cables were loosely plugged in PoE Antennas outlets, so that not all lamps lighted up and the Antennas did not function properly, particularly did not generate signal. After few attempts with different cables and holding positions, we manage to light up all the router lamps. Therefore connection has been established as shown from 2 photos above.
   
-*2.3. Update December 13th 2021:*
+*2.3. Update December 13th 2021:*  
 Thomas has ordered 2 new antennas Airfiber Ubiquiti 60LR for test performance with radio signal 60GHz.
 
 ## 3. Operating:
@@ -199,11 +188,12 @@ Signal direction is estimated by placing one head of the drill fix on the antenn
 
 After plugging in the two cables, Thomas set up the position for the cable to run straight to the POE Switches Lan Port while the POE Port is connected to a 4900 TPLink Router as Power and Internet source. Two cables are binded together from which the cable connect to the 60GHz is marked blue and the other is mark red. Valerius has examined and verified through the web interface that both antenna function correctly. These antennas will be tested as transmitter.
 
-2. Antenna temporary set up and signal testing in Campus:
+2. Antenna temporary set up and signal testing in Campus:  
 Thomas has asked the house keeper for a big tripod to temporary set up antenna on top of staircase. Due to visible obstacles only antenna 5GHz has been used for testing as receiver. Power is provided by uninterrupted power suplier (UPS). Signal strength is tested by adjusting tripod position and antenna direction and displayed on Valerius laptop web interface. It is recorded that minimum average for constant signal strength can vary between 1 to 7 Mbps and maximum average can reach between 40 to 70 Mbps and then decrease. There are two times the signal has jumped up to 330 Mpbs for shorter than a second. 
 
-3. Conclusion:
+3. Conclusion:  
 Bad weather condition and clearly visible obstacles are the most possible reason for bad signal records. Secondary reason can be incorrect set up antennas direction between ThIWert and staircase in Campus.
 
-4. Solution:
+4. Solution:  
 First solution is another performance test on the roof of library where the vision is clearer with less chance of obstacles. Additional solution is to re-adjust antennas direction in ThIWert.
+## 4. References:
