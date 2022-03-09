@@ -89,7 +89,7 @@ There is low chance of any posible obstacle blocking signal.
 1. The first topology research was on November 8th 2021.  
 There are 2 options of antenna mounting location at ThIWert:
     1. On the roof of the main building
-    2. On top of the side tower
+    2. On top of the side tower  
 The first optimal option which had been studied is Library roof's bottom right corner (via Google Map/Earth).
 
 The true distances measured from Library via Google Earth are:
