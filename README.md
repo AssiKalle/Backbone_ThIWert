@@ -23,3 +23,11 @@ Need UBV unterbrechungsfreie Stromversorgung. (gestell von Thomas)
 Sample 5 GHz
 
 new devices 60 GHz 399 bis zu 12km Ansichtverbindung
+
+What is backbon/Thiwert
+what is quality requirement
+Kontakt 1.4, nicht 4, oder befinden im Anhang
+what should be topoplogy planing implementation from google earth photo
+Datum weg, nur Ergebnis
+
+Self comment
