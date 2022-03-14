@@ -3,7 +3,11 @@ An AKO Project by Gin Havana and AssiKalle
 
 # Table of contents:
 1. Introduction
-2. Planning
+2. Planning:  
+2.1. Conditions and requirements:  
+  2.1.1. Main consideration  
+  2.1.2. Requirements  
+2.2. Etwas
 3. Validation
 
 ## 1. Introduction:
@@ -12,9 +16,9 @@ The [Thüringer Innovationszentrum für Wertstoffe (ThIWert)](https://www.hs-nor
 ## 2. Planning:
 The goal for this project is to create a stable, highspeed internet connection between the HS-Nordhausen and the ThIWert. 
 
-**1. Conditions and requirements:**
+**2.1. Conditions and requirements:**
 
-***1.1. Main consideration:***
+***2.1.1. Main consideration:***
 - Location:
 
 | Mounting location | Campus Nordhausen | ThIWert |
@@ -29,7 +33,7 @@ The goal for this project is to create a stable, highspeed internet connection b
 
 - Time: Estimated time required for full project is one semester.
 
-***1.2. Requirement:***
+***2.1.2. Requirements:***
 
 Firstly, it is required that the connection between LAN Network in ThIWert and Campus Nordhausen is flawless and reliable, in other word it is stable with least interruption.
 
@@ -39,17 +43,10 @@ The last technical requirement and also expectation is the established connectio
 
 The durability of the signal under different weather conditions as well as possible obstacle between antennas mounting locations should be noticed.
 
+***2.1.3. Predicted risks:***
+With all the requirements, it is predicted that the budget will not fit the cost for hardwares. In this situation it is acceptable that some technical requirements can not be met. It is also predicted to taken more time to finish the project because project had started in winter, therefore it is highly possible that the weather condition will not support the implementation. There can be some problems occur in preparation phase such as malfunction hardware or inconfigurable software technology, which also cost more time and budget to replace, repair or reconfig. In execution phase, it is expected to have to many obstacles between ThIWert and campus interrupting signal, or there are no suitable mounting point.
 
-
-***1.2. Predicted risks:***
-- Low budget or hardware has high cost
-- In practice it will take more time than limited/expected time
-- No suitable mounting point
-- Malfunction hardware or inconfigurable software technology
-- Bad weather
-- To many obstacles interrupting signal
-
-**2. Rough planning:**
+**2.2 Rough planning:**
 - [x] Distance estimation and calculation and in practice
 - [x] Look for obstacle theoretically and practically
 - [x] Check weather condition
@@ -58,7 +55,7 @@ The durability of the signal under different weather conditions as well as possi
 - [x] Research about routing device that fits budget
 - [x] Perform test installation
 
-**3. Detail planning:**  
+**2.3. Detail planning:**  
 For distance estimation, Google Earth is optimal. After topographic survey, information has been compared with estimated data for correction.  
 Presumably maximum 3 to 4 appointments are required for topology research for exact locations and views as well as signal direction of mounting options and possible weather condition. There are also some details needed to notice such as cable access, estimated length of cable, technical devices, etc.  
 To reduce additional power suply, it is fairly good if Power over Ethernet technology is applied. For safety purpose, PoE Antenna should have max 48V DC. The best option to transmit internet signal to end devices is Glass Fiber.  
@@ -66,8 +63,7 @@ Test installation and configuration of PoE Antennas should be prepared in Labor.
 Practical installations should also take 3 to 4 appointments to adjust technical details e.g. signal direction, practical devices configuration, etc.
 Performance and durability test should be performed after practical installations.
 
-**2. Topology planning:**  
-1. The first topology research was on November 8th 2021.  
+**2. Topology planning:** 
 There are 2 options of antenna mounting location at ThIWert:
     1. On the roof of the main building
     2. On top of the side tower  
