@@ -1,6 +1,15 @@
 # Backbone ThIWert
 An AKO Project by Gin Havana and AssiKalle
 
+# Table of contents:
+1. Introduction
+2. Planning
+3. Validation
+
+## 1. Introduction:
+Thüringer Innovationszentrum für Wertstoffe (ThIWert) ist ...
+
+
 ## 1. Planning:
 **1. Goal:**  
 The goal for this project is to create a stable network radio connection between the HS-Nordhausen and the ThIWert. 
