@@ -20,7 +20,7 @@ The [Thüringer Innovationszentrum für Wertstoffe (ThIWert)](https://www.hs-nor
 ## 2. Planning:
 The goal for this project is to create a stable, highspeed internet connection between the HS-Nordhausen and the ThIWert. 
 ### 2.1. Conditions and requirements: 
-  **2.1.1. Main consideration:**
+**2.1.1. Main consideration:**
 
 - Location:
   
@@ -49,7 +49,7 @@ The durability of the signal under different weather conditions as well as possi
 
 With all the requirements, it is predicted that the budget will not fit the cost for hardwares. In this situation it is acceptable that some technical requirements can not be met. It is also predicted to taken more time to finish the project because project had started in winter, therefore it is highly possible that the weather condition will not support the implementation. There can be some problems occur in preparation phase such as malfunction hardware or inconfigurable software technology, which also cost more time and budget to replace, repair or reconfig. In execution phase, it is expected to have to many obstacles between ThIWert and campus interrupting signal, or there are no suitable mounting point.
 
-**2.2 Rough planning:**
+## 2.2 Rough planning:
 - [x] Distance estimation and calculation and in practice
 - [x] Look for obstacle theoretically and practically
 - [x] Check weather condition
@@ -103,7 +103,8 @@ There is server box wired directly to the roof of the same building through thir
 
 ## 3. Implementation:
 
-**3.1. Condition research and preparation:**  
+### 3.1. Condition research and preparation:
+
 Due to known information, there are two variants from which the antenna(s) can be installed. They are building 18 and building 19. Distance will be measured from south side of both buildings, since ThIWert main building is positioned southern from Campus, and from north side of ThIWert main building. Assuming that installation points can be roughly on the southern wall of buildings 18 and 19 and on northern wall of ThIWert building, the measured/estimated distances via Google Earth are:
 
 |Distance from H18|Distance from H19|Height difference|
@@ -112,7 +113,8 @@ Due to known information, there are two variants from which the antenna(s) can b
 
 There is low chance of any posible obstacle blocking signal.
 
-**3.2. Practical risks and difficulties:**
+### 3.2. Practical risks and difficulties:
+
 After the first topology study on November 8th 2021, some difficulties have been notice:
 
 - For the mounting option on the roof of ThIWert main building, it is very easy for technician to install antenna. However the roof area does not belong to ThIWert but to the landlord. There is no confirmed information that the roof is available for antenna installation, yet rumor that the landlord is planning on using the roof for something else (? need reconfirmation). Another difficulty is that even if the roof is available, from the study experience and proofs such as photos of views to estimate initial signal direction in addition with Google Earth view comparision, there is high chance of obstacles, most obvious trees, blocking the signal wave.
@@ -127,7 +129,8 @@ After the first topology study on November 8th 2021, some difficulties have been
 
 https://user-images.githubusercontent.com/66717834/142772420-a6c32e5f-44b6-4808-81d0-4b37938e5b4f.mp4
 
-**3.3. Installation:**
+### 3.3. Installation:
+
 1. Prediction:
 After discussing with supervisor, the conclusion is that Laser 60 GHz is theoretically impossible to transmit signal direct through objectives like trees, so the first solution is using Laser 5 GHz and if it is still not possible then Laser 2.4 GHz. There are 2 sample antennas 5 GHz in Labor so that a temporary installation is possible.
 In ThIWert, there are 2 possible place on the roof of main building that will be tested for mounting: On the wall of the small entrance or on the ground of the roof.
