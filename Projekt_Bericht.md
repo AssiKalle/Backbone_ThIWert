@@ -19,35 +19,35 @@ The [Thüringer Innovationszentrum für Wertstoffe (ThIWert)](https://www.hs-nor
 
 ## 2. Planning:
 The goal for this project is to create a stable, highspeed internet connection between the HS-Nordhausen and the ThIWert. 
+### 2.1. Conditions and requirements:**  
+**2.1.1. Main consideration:**
 
-  **2.1. Conditions and requirements:**  
-  ***2.1.1. Main consideration:***    
-  - Location:
+- Location:
   
-  | Mounting location | Campus Nordhausen | ThIWert |
-  | - | - | - |
-  | Chosen | Library roof | still provition |
-  - Budget, cost:
+| Mounting location | Campus Nordhausen | ThIWert |
+| - | - | - |
+| Chosen | Library roof | still provition |
+- Budget, cost:
+
+| Name | Amount | Total cost |
+| ---- | ---- |---- |
+| PoE Antennas Airfiber Ubiquiti 60 LR | 2 | €798 |
+| (Battery) APC Back-UPS Es | 1 | €138|
+- Time: Estimated time required for full project is one semester.
+
+**2.1.2. Requirements:**
+
+Firstly, it is required that the connection between LAN Network in ThIWert and Campus Nordhausen is flawless and reliable, in other word it is stable with least interruption.
   
-  | Name | Amount | Total cost |
-  | ---- | ---- |---- |
-  | PoE Antennas Airfiber Ubiquiti 60 LR | 2 | €798 |
-  | (Battery) APC Back-UPS Es | 1 | €138|
-  - Time: Estimated time required for full project is one semester.
+It is also expected that with this connection, the internet speed should also be highspeed. To achieve this expectation, there are some advance technical requirements that need to be fullfilled. The first technical requirement is glass fiber as medium for cabling. Since glass cores are efficient at transmitting light and allow for significantly higher transfer speeds, glass fibers can be used over long sensing distances.  
+Next is Power Over Ethernet (PoE) technology for many cost efficient reasons: There is no need for a separate electrical supply line so there is a substantial reduction in installation labor cost. Secondly, the infrastructure of PoE is quite safe. Power Sourcing Equipment (PSE) devices only supply power when they detect the presence of a PoE-enabled device. Otherwise, there is no power delivered along the line keeping both users and the equipment safe from shocks and overloads. Furthermore, PoE devices can be enabled to automatically shut down at night, remotely reset to collect relevant information from network devices such as servers, printers, hubs, switches. All of this can be managed efficiently through a Simple Network Management Protocol (SNMP). And finally, a PoE system can be attached to an uninterruptible power supply (UPS). This fact means that mission-critical systems can be assured of a constant power supply even if regular electrical service is interrupted.  
+The last technical requirement and also expectation is the established connection can be reach and maintain between 2 Antennas with signal frequency of 60 GHz. However it is also acceptable if the connection can not be established with 60 GHz and only with 2.4/5GHz.
   
-  ***2.1.2. Requirements:***
-  
-  Firstly, it is required that the connection between LAN Network in ThIWert and Campus Nordhausen is flawless and reliable, in other word it is stable with least interruption.
-    
-  It is also expected that with this connection, the internet speed should also be highspeed. To achieve this expectation, there are some advance technical requirements that need to be fullfilled. The first technical requirement is glass fiber as medium for cabling. Since glass cores are efficient at transmitting light and allow for significantly higher transfer speeds, glass fibers can be used over long sensing distances.  
-  Next is Power Over Ethernet (PoE) technology for many cost efficient reasons: There is no need for a separate electrical supply line so there is a substantial reduction in installation labor cost. Secondly, the infrastructure of PoE is quite safe. Power Sourcing Equipment (PSE) devices only supply power when they detect the presence of a PoE-enabled device. Otherwise, there is no power delivered along the line keeping both users and the equipment safe from shocks and overloads. Furthermore, PoE devices can be enabled to automatically shut down at night, remotely reset to collect relevant information from network devices such as servers, printers, hubs, switches. All of this can be managed efficiently through a Simple Network Management Protocol (SNMP). And finally, a PoE system can be attached to an uninterruptible power supply (UPS). This fact means that mission-critical systems can be assured of a constant power supply even if regular electrical service is interrupted.  
-  The last technical requirement and also expectation is the established connection can be reach and maintain between 2 Antennas with signal frequency of 60 GHz. However it is also acceptable if the connection can not be established with 60 GHz and only with 2.4/5GHz.
-    
-  The durability of the signal under different weather conditions as well as possible obstacle between antennas mounting locations should be noticed.
-  
-  ***2.1.3. Predicted risks:***
-  
-  With all the requirements, it is predicted that the budget will not fit the cost for hardwares. In this situation it is acceptable that some technical requirements can not be met. It is also predicted to taken more time to finish the project because project had started in winter, therefore it is highly possible that the weather condition will not support the implementation. There can be some problems occur in preparation phase such as malfunction hardware or inconfigurable software technology, which also cost more time and budget to replace, repair or reconfig. In execution phase, it is expected to have to many obstacles between ThIWert and campus interrupting signal, or there are no suitable mounting point.
+The durability of the signal under different weather conditions as well as possible obstacle between antennas mounting locations should be noticed.
+
+**2.1.3. Predicted risks:**
+
+With all the requirements, it is predicted that the budget will not fit the cost for hardwares. In this situation it is acceptable that some technical requirements can not be met. It is also predicted to taken more time to finish the project because project had started in winter, therefore it is highly possible that the weather condition will not support the implementation. There can be some problems occur in preparation phase such as malfunction hardware or inconfigurable software technology, which also cost more time and budget to replace, repair or reconfig. In execution phase, it is expected to have to many obstacles between ThIWert and campus interrupting signal, or there are no suitable mounting point.
 
 **2.2 Rough planning:**
 - [x] Distance estimation and calculation and in practice
