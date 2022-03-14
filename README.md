@@ -24,3 +24,19 @@ Sample 5 GHz
 
 new devices 60 GHz 399 bis zu 12km Ansichtverbindung
 
+Einleitung
+ThiWert, was ist das
+wieso brauchen die Internet?
+Quality requirement (umbenennen) ->requirements
+Stichpunkte zu Sätze
+vor den Hauptpunkten kurzen Satz
+Kontakte in Anhang 
+Bilder von Linkstrecken zur Planung
+topology implementation (umbenennen)-> topology planing (zu Planung)
+update xx.xx.xxxx weglassen
+Operations (umbenennen)-> Validation 
+offene Fragen, Probleme an das Ende
+
+NUMBERING anpassen
+
+bis 18.03.2022
