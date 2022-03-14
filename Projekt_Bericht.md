@@ -100,9 +100,9 @@ There is server box wired directly to the roof of the same building through thir
 3. Supervisor:
    - Prof. Dr.-Ing. Thomas Hühn
 
-## 2. Implementation:
+## 3. Implementation:
 
-**1. Condition research and preparation:**  
+**3.1. Condition research and preparation:**  
 Due to known information, there are two variants from which the antenna(s) can be installed. They are building 18 and building 19. Distance will be measured from south side of both buildings, since ThIWert main building is positioned southern from Campus, and from north side of ThIWert main building. Assuming that installation points can be roughly on the southern wall of buildings 18 and 19 and on northern wall of ThIWert building, the measured/estimated distances via Google Earth are:
 
 |Distance from H18|Distance from H19|Height difference|
@@ -111,22 +111,22 @@ Due to known information, there are two variants from which the antenna(s) can b
 
 There is low chance of any posible obstacle blocking signal.
 
-**3. Practical risks and difficulties:**
+**3.2. Practical risks and difficulties:**
 After the first topology study on November 8th 2021, some difficulties have been notice:
 
-1. For the mounting option on the roof of ThIWert main building, it is very easy for technician to install antenna. However the roof area does not belong to ThIWert but to the landlord. There is no confirmed information that the roof is available for antenna installation, yet rumor that the landlord is planning on using the roof for something else (? need reconfirmation). Another difficulty is that even if the roof is available, from the study experience and proofs such as photos of views to estimate initial signal direction in addition with Google Earth view comparision, there is high chance of obstacles, most obvious trees, blocking the signal wave.
+- For the mounting option on the roof of ThIWert main building, it is very easy for technician to install antenna. However the roof area does not belong to ThIWert but to the landlord. There is no confirmed information that the roof is available for antenna installation, yet rumor that the landlord is planning on using the roof for something else (? need reconfirmation). Another difficulty is that even if the roof is available, from the study experience and proofs such as photos of views to estimate initial signal direction in addition with Google Earth view comparision, there is high chance of obstacles, most obvious trees, blocking the signal wave.
 ![Ggl_Earth-signal-blockers](https://user-images.githubusercontent.com/66717834/142770088-7826b05e-a090-480d-961d-1851048cf623.png)
 *the bold area has the most potential of obstacles (trees, etc.) blocking signal*
 ![2021_11_08_ThIWert_view-to-campus-horizontal_true-POV](https://user-images.githubusercontent.com/66717834/142769629-734763b0-18b0-430f-baf0-5993ff730ff3.jpg)
 ![Ggl_Earth-signal-pov](https://user-images.githubusercontent.com/66717834/142769712-cfa2c279-1a2b-4135-bf6f-6e36c6256cab.png)
 
-2. For the mounting option on top of the heat tower, some risks have first been notice. The tower is very high with mostly no protective devices or method. Weather condition is also in concern. Technician has to climb up the tower which requires hiring professional technician and safety gears or personal protective equiments, which demand  extra cost. The distance between the tower and server box is also far. This option is therefore high risk high cost and should only be deadend solution.
+- For the mounting option on top of the heat tower, some risks have first been notice. The tower is very high with mostly no protective devices or method. Weather condition is also in concern. Technician has to climb up the tower which requires hiring professional technician and safety gears or personal protective equiments, which demand  extra cost. The distance between the tower and server box is also far. This option is therefore high risk high cost and should only be deadend solution.
     
-3. For mounting option in campus, tbd [^1]
+- For mounting option in campus, tbd [^1]
 
 https://user-images.githubusercontent.com/66717834/142772420-a6c32e5f-44b6-4808-81d0-4b37938e5b4f.mp4
 
-**4. Installation:**
+**3.3. Installation:**
 1. Prediction:
 After discussing with supervisor, the conclusion is that Laser 60 GHz is theoretically impossible to transmit signal direct through objectives like trees, so the first solution is using Laser 5 GHz and if it is still not possible then Laser 2.4 GHz. There are 2 sample antennas 5 GHz in Labor so that a temporary installation is possible.
 In ThIWert, there are 2 possible place on the roof of main building that will be tested for mounting: On the wall of the small entrance or on the ground of the roof.
@@ -165,7 +165,7 @@ After whole session trying to find the cause for not connectable, we have found 
 *2.3. Update December 13th 2021:*  
 Thomas has ordered 2 new antennas Airfiber Ubiquiti 60LR for test performance with radio signal 60GHz.
 
-## 3. Validation:
+## 4. Validation:
 ### 1. First attempt January 24th 2022:
 1. Installation in ThIWert (A good provision):  
 The appointment meeting for mounting atempt is 8 am and it is expected to take 1 to 2 hour(s) to finish. Two antennas, each for different bandwidth 
@@ -191,5 +191,5 @@ Bad weather condition and clearly visible obstacles are the most possible reason
 
 4. Solution:  
 First solution is another performance test on the roof of library where the vision is clearer with less chance of obstacles. Additional solution is to re-adjust antennas direction in ThIWert.
-## 4. References:
+## 5. References:
 References collection:https://www.zotero.org/groups/4479602/backbone_thiwert/library
