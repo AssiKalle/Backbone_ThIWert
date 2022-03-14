@@ -19,8 +19,8 @@ The [Thüringer Innovationszentrum für Wertstoffe (ThIWert)](https://www.hs-nor
 
 ## 2. Planning:
 The goal for this project is to create a stable, highspeed internet connection between the HS-Nordhausen and the ThIWert. 
-### 2.1. Conditions and requirements:**  
-**2.1.1. Main consideration:**
+### 2.1. Conditions and requirements: 
+  **2.1.1. Main consideration:**
 
 - Location:
   
