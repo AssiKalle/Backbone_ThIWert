@@ -7,12 +7,11 @@ An AKO Project by Gin Havana and AssiKalle
 3. Validation
 
 ## 1. Introduction:
-Thüringer Innovationszentrum für Wertstoffe (ThIWert) ist ...
+Das [Thüringer Innovationszentrum für Wertstoffe (ThIWert)](https://www.hs-nordhausen.de/forschung/thiwert/) is a partner of Thuringian industry and commerce and also of regional and supra-regional research institutions, colleges and universities, funded by the Free State of Thuringia and is co-financed by the European Regional Development Fund (ERDF). There should be Internet service provided for ThIWert building in Nordhausen by individual ISP, however we want to provide a Backbone LAN network between Hochschule Nordhausen and ThIWert building for better distributed LAN Network, which presumably lower the cost for separated individual network control and configuration and increase as well as maintain the reliable highspeed Internet.
 
-
-## 1. Planning:
+## 2. Planning:
 **1. Goal:**  
-The goal for this project is to create a stable network radio connection between the HS-Nordhausen and the ThIWert. 
+The goal for this project is to create a stable, highspeed internet connection between the HS-Nordhausen and the ThIWert. 
 
 ***1.1. Conditions and requirements:***  
 1.1.1. Main consideration:
@@ -74,27 +73,7 @@ Test installation and configuration of PoE Antennas should be prepared in Labor.
 Practical installations should also take 3 to 4 appointments to adjust technical details e.g. signal direction, practical devices configuration, etc.
 Performance and durability test should be performed after practical installations.
 
-**4. Contact details:**
-1. ThIWert:
-   - Prof. Ariane Ruff
-   - Admin* Mark Gassmann
-2. Medienzentrum:
-   - Fred Wagner
-3. Supervisor:
-   - Prof. Dr.-Ing. Thomas Hühn
-
-## 2. Implementation:
-
-**1. Condition research and preparation:**  
-Due to known information, there are two variants from which the antenna(s) can be installed. They are building 18 and building 19. Distance will be measured from south side of both buildings, since ThIWert main building is positioned southern from Campus, and from north side of ThIWert main building. Assuming that installation points can be roughly on the southern wall of buildings 18 and 19 and on northern wall of ThIWert building, the measured/estimated distances via Google Earth are:
-
-|Distance from H18|Distance from H19|Height difference|
-| - | - | - |
-|1.37 ~ 1.41 km|1.35 ~ 1.39 km|10 ~ 11 m|
-
-There is low chance of any posible obstacle blocking signal.
-
-**2. Topology implementation:**  
+**2. Topology planning:**  
 1. The first topology research was on November 8th 2021.  
 There are 2 options of antenna mounting location at ThIWert:
     1. On the roof of the main building
@@ -120,6 +99,26 @@ There is server box wired directly to the roof of the same building through thir
 
   2. In the main hall near entrance to labor and also near entrance to main building.  
 <img src="https://user-images.githubusercontent.com/66717834/142770735-e710415a-bab3-4bb0-8c4d-f59007579c55.jpg" alt="2021_11_08_ThIWert_Server-case-main-hall" width="300"/>&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/66717834/142770768-8eac2527-e6ad-4c2a-8e92-786f55840c3c.jpg" alt="2021_11_08_ThIWert_POE-Switch-Fastiron-Edge-2402-POE" width="500"/>
+
+**4. Contact details:**
+1. ThIWert:
+   - Prof. Ariane Ruff
+   - Admin* Mark Gassmann
+2. Medienzentrum:
+   - Fred Wagner
+3. Supervisor:
+   - Prof. Dr.-Ing. Thomas Hühn
+
+## 2. Implementation:
+
+**1. Condition research and preparation:**  
+Due to known information, there are two variants from which the antenna(s) can be installed. They are building 18 and building 19. Distance will be measured from south side of both buildings, since ThIWert main building is positioned southern from Campus, and from north side of ThIWert main building. Assuming that installation points can be roughly on the southern wall of buildings 18 and 19 and on northern wall of ThIWert building, the measured/estimated distances via Google Earth are:
+
+|Distance from H18|Distance from H19|Height difference|
+| - | - | - |
+|1.37 ~ 1.41 km|1.35 ~ 1.39 km|10 ~ 11 m|
+
+There is low chance of any posible obstacle blocking signal.
 
 **3. Practical risks and difficulties:**
 After the first topology study on November 8th 2021, some difficulties have been notice:
@@ -175,7 +174,7 @@ After whole session trying to find the cause for not connectable, we have found 
 *2.3. Update December 13th 2021:*  
 Thomas has ordered 2 new antennas Airfiber Ubiquiti 60LR for test performance with radio signal 60GHz.
 
-## 3. Operating:
+## 3. Validation:
 ### 1. First attempt January 24th 2022:
 1. Installation in ThIWert (A good provision):  
 The appointment meeting for mounting atempt is 8 am and it is expected to take 1 to 2 hour(s) to finish. Two antennas, each for different bandwidth 
