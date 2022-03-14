@@ -44,6 +44,7 @@ The last technical requirement and also expectation is the established connectio
 The durability of the signal under different weather conditions as well as possible obstacle between antennas mounting locations should be noticed.
 
 ***2.1.3. Predicted risks:***
+
 With all the requirements, it is predicted that the budget will not fit the cost for hardwares. In this situation it is acceptable that some technical requirements can not be met. It is also predicted to taken more time to finish the project because project had started in winter, therefore it is highly possible that the weather condition will not support the implementation. There can be some problems occur in preparation phase such as malfunction hardware or inconfigurable software technology, which also cost more time and budget to replace, repair or reconfig. In execution phase, it is expected to have to many obstacles between ThIWert and campus interrupting signal, or there are no suitable mounting point.
 
 **2.2 Rough planning:**
