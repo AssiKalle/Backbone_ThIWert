@@ -13,7 +13,8 @@ The [Thüringer Innovationszentrum für Wertstoffe (ThIWert)](https://www.hs-nor
 The goal for this project is to create a stable, highspeed internet connection between the HS-Nordhausen and the ThIWert. 
 
 **1. Conditions and requirements:**
-1.1. Main consideration:
+
+***1.1. Main consideration:***
 - Location:
 
 | Mounting location | Campus Nordhausen | ThIWert |
@@ -28,7 +29,7 @@ The goal for this project is to create a stable, highspeed internet connection b
 
 - Time: Estimated time required for full project is one semester.
 
-1.2. Requirement:
+***1.2. Requirement:***
 
 Firstly, it is required that the connection between LAN Network in ThIWert and Campus Nordhausen is flawless and reliable, in other word it is stable with least interruption.
 
