@@ -12,6 +12,8 @@ An AKO Project by Gin Havana and AssiKalle
 4. Validation
 5. References
 
+
+
 ## 1. Introduction:
 The [Thüringer Innovationszentrum für Wertstoffe (ThIWert)](https://www.hs-nordhausen.de/forschung/thiwert/) is a partner of Thuringian industry and commerce and also of regional and supra-regional research institutions, colleges and universities, funded by the Free State of Thuringia and is co-financed by the European Regional Development Fund (ERDF). There should be Internet service provided for ThIWert building by individual ISP, however being a part of Hochschule Nordhausen, it is neccessary that ThIWert connects directly to Campus and is able to use the Internet through Campus's server.
 
