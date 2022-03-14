@@ -7,14 +7,13 @@ An AKO Project by Gin Havana and AssiKalle
 3. Validation
 
 ## 1. Introduction:
-Das [Thüringer Innovationszentrum für Wertstoffe (ThIWert)](https://www.hs-nordhausen.de/forschung/thiwert/) is a partner of Thuringian industry and commerce and also of regional and supra-regional research institutions, colleges and universities, funded by the Free State of Thuringia and is co-financed by the European Regional Development Fund (ERDF). There should be Internet service provided for ThIWert building in Nordhausen by individual ISP, however we want to provide a Backbone LAN network between Hochschule Nordhausen and ThIWert building for better distributed LAN Network, which presumably lower the cost for separated individual network control and configuration and increase as well as maintain the reliable highspeed Internet.
+The [Thüringer Innovationszentrum für Wertstoffe (ThIWert)](https://www.hs-nordhausen.de/forschung/thiwert/) is a partner of Thuringian industry and commerce and also of regional and supra-regional research institutions, colleges and universities, funded by the Free State of Thuringia and is co-financed by the European Regional Development Fund (ERDF). There should be Internet service provided for ThIWert building by individual ISP, however being a part of Hochschule Nordhausen, it is neccessary that ThIWert connects directly to Campus and is able to use the Internet through Campus's server.
 
 ## 2. Planning:
-**1. Goal:**  
 The goal for this project is to create a stable, highspeed internet connection between the HS-Nordhausen and the ThIWert. 
 
-***1.1. Conditions and requirements:***  
-1.1.1. Main consideration:
+**1. Conditions and requirements:**
+1.1. Main consideration:
 - Location:
 
 | Mounting location | Campus Nordhausen | ThIWert |
@@ -29,17 +28,14 @@ The goal for this project is to create a stable, highspeed internet connection b
 
 - Time: Estimated time required for full project is one semester.
 
-1.1.2. Quality requirement:
-- Presumably the connection is flawless with highspeed internet (high frequency signals are reachable and durable)
-- Technical details:
-  - [x] Glass fiber
-  - [x] PoE Switch
-  - [ ] Choose Laser 60/5/2.4 GHz
-  - [x] PoE Antenna
-  - [x] Ipv4/v6
-  - [ ] Durability of antenna under weather condition
-- Weather condition on install day and durability of connection under bad weathher
-- Obstacle between mounting location
+1.2. Requirement:
+Firstly, it is required that the connection between LAN Network in ThIWert and Campus Nordhausen is flawless and reliable, in other word it is stable with least interruption.
+It is also expected that with this connection, the internet speed should also be highspeed. To achieve this expectation, there are some advance technical requirements that need to be fullfilled. The first technical requirement is glass fiber as medium for cabling. Since glass cores are efficient at transmitting light and allow for significantly higher transfer speeds, glass fibers can be used over long sensing distances.
+Next is Power Over Ethernet (PoE) technology for many cost efficient reasons: There is no need for a separate electrical supply line so there is a substantial reduction in installation labor cost. Secondly, the infrastructure of PoE is quite safe. Power Sourcing Equipment (PSE) devices only supply power when they detect the presence of a PoE-enabled device. Otherwise, there is no power delivered along the line keeping both users and the equipment safe from shocks and overloads. Furthermore, PoE devices can be enabled to automatically shut down at night, remotely reset to collect relevant information from network devices such as servers, printers, hubs, switches. All of this can be managed efficiently through a Simple Network Management Protocol (SNMP). And finally, a PoE system can be attached to an uninterruptible power supply (UPS). This fact means that mission-critical systems can be assured of a constant power supply even if regular electrical service is interrupted.
+The last technical requirement and also expectation is the established connection can be reach and maintain between 2 Antennas with signal frequency of 60 GHz. However it is also acceptable if the connection can not be established with 60 GHz and only with 2.4/5GHz.
+The durability of the signal under different weather conditions as well as possible obstacle between antennas mounting locations should be noticed.
+
+
 
 ***1.2. Predicted risks:***
 - Low budget or hardware has high cost
@@ -48,13 +44,6 @@ The goal for this project is to create a stable, highspeed internet connection b
 - Malfunction hardware or inconfigurable software technology
 - Bad weather
 - To many obstacles interrupting signal
-
-***1.3. Expectation:***
-- [x] Technical hardwares fit planned budget. 
-- [x] Glass fiber technology
-- [x] Power over Ethernet technology, e.g. Antenna, Switch, etc.
-- [ ] Connection via 60 GHz antennas
-- [ ] 80m cable
 
 **2. Rough planning:**
 - [x] Distance estimation and calculation and in practice
