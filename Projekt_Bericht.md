@@ -8,10 +8,9 @@ An AKO Project by Gin Havana and AssiKalle
   2.2. Detail Planing  
   2.3. Preparation  
   2.4. Implementation  
-3. Validation
+3. Validation  
   3.1. First attempt  
 4. References
-
 
 ## 1. Introduction:
 The [Thüringer Innovationszentrum für Wertstoffe (ThIWert)](https://www.hs-nordhausen.de/forschung/thiwert/) is a partner of Thuringian industry and commerce and also of regional and supra-regional research institutions, colleges and universities, funded by the Free State of Thuringia and is co-financed by the European Regional Development Fund (ERDF). There should be Internet service provided for ThIWert building by individual ISP, however being a part of Hochschule Nordhausen, it is neccessary that ThIWert connects directly to Campus and is able to use the Internet through Campus's server.
@@ -23,9 +22,9 @@ The goal for this project is to create a stable, highspeed internet connection b
 
 - Location:
   
-| Mounting location | Campus Nordhausen | ThIWert |
-| - | - | - |
-| Chosen | Library roof | still provition |
+| Campus Nordhausen | ThIWert |
+| - | - |
+| Library roof | still provition |
 - Budget, cost:
 
 | Name | Amount | Total cost |
@@ -54,8 +53,7 @@ However, during our deliberations we not only considered possible problems but a
 
 After gathering information about requirements and predicted risks, we have to prepare practical information. Presumably maximum 3 to 4 appointments are required for topology research for exact locations and views as well as signal direction of mounting options and possible weather condition. There are also some details needed to notice such as cable access, estimated length of cable, technical devices, etc. After topographic survey, information will be compared with estimated data for correction, such as distance, mounting location, obstacles, etc. After some discusstions, we have come to some agreement: For distance estimation, Google Earth is optimal. For safety purpose, PoE Antenna should have maximal Voltage 48V DC. Test installation and configuration of PoE Antennas should be prepared in Labor. Practical installations should also take 3 to 4 appointments to adjust technical details e.g. signal direction, practical devices configuration, etc. Performance and durability test should be performed after practical installations.
 
-### 2.3. Preparation:
-**2.3.1. Location:**
+**2.2.1. Location:**
 
 The first optimal option for antenna installation in Campusd is Library roof (via Google Map/Earth). There are also 2 options of antenna mounting location at ThIWert, on the roof of the main building and on top of the side tower.
 
@@ -74,7 +72,7 @@ It is expected that there is low chance of any posible obstacle blocking signal.
 In ThIWert, there are 2 possible place on the roof of main building that will be tested for mounting: On the wall of the small entrance or on the ground of the roof.
 Antenna will also be set on the top of the staircase next to the entrance of the library (possible nearest to the planning mounting point)
 
-**2.3.2. Devices:**
+**2.2.2. Devices:**
 
 There are 2 sample antennas 5 GHz in Labor so that a temporary installation is possible. Thomas has ordered 2 new antennas Airfiber Ubiquiti 60LR for test performance with radio signal 60GHz and an uninterrupted power suply (UPS) for Installation Test.
  
@@ -97,8 +95,8 @@ Connection between 2 antennas must be configured and tested. After sending pings
 There was 1 unknown technical issue that at some early attempts we couldn't ping directly to each other, only to the antennas. Both devices could also not connect to each other via iperf3. Connection between admin devices (laptops) through switch is still working. After whole session trying to find the cause for not connectable, we have found out that the problem was that cables were loosely plugged in PoE Antennas outlets, so that not all lamps lighted up and the Antennas did not function properly, particularly did not generate signal. After few attempts with different cables and holding positions, we manage to light up all the router lamps, therefore connection has been established.
 Plan for pratical test installation has also been drafted: 1 antenna is planned to be set on top of staircase in Campus next to the Library, a.k.a. neareast posible test position while the other antenna is planned to be set on either floor of ThIWert roof or on the wall of the small entrance to the roof.
 
-### 2.4. Implementation:
-**2.4.1. Condition research:**
+### 2.3. Implementation:
+**2.3.1. Condition research:**
 
 There are 2 server containers that have PoE Switch wired to each other by Glass Fiber cable: The first one is on the second floor of main building, in technical room.  
 <img src="https://user-images.githubusercontent.com/66717834/142770168-a310233f-71ac-486b-8e06-2ad119a2a335.jpg" alt="2021_11_08_ThIWert_main-building-server-box-with-glasfaser" width="350"/>&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/66717834/142770181-754292b9-e235-41f8-8eaf-fb94df8c03fa.jpg" alt="2021_11_08_ThIWert_main-building-server-box-with-glasfaser1" width="350"/>  
@@ -108,7 +106,7 @@ There is server box wired directly to the roof of the same building through thir
 The second one is in the main hall near entrance to labor and also near entrance to main building.  
 <img src="https://user-images.githubusercontent.com/66717834/142770735-e710415a-bab3-4bb0-8c4d-f59007579c55.jpg" alt="2021_11_08_ThIWert_Server-case-main-hall" width="300"/>&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/66717834/142770768-8eac2527-e6ad-4c2a-8e92-786f55840c3c.jpg" alt="2021_11_08_ThIWert_POE-Switch-Fastiron-Edge-2402-POE" width="500"/>
 
-**2.4.2. Practical risks and difficulties:**
+**2.3.2. Practical risks and difficulties:**
 
 After the first topology study, some difficulties have been notice:  
 For the mounting option on the roof of ThIWert main building, it is very easy for technician to install antenna. However the roof area does not belong to ThIWert but to the landlord. There is no confirmed information that the roof is available for antenna installation and the landlord was planning on using the roof for other plan. Another difficulty is that even if the roof is available, from the study experience and proofs such as photos of views to estimate initial signal direction in addition with Google Earth view comparision, there is high chance of obstacles, most obvious trees, blocking the signal wave.
@@ -121,6 +119,7 @@ For the mounting option on top of the heat tower, some risks have first been not
 https://user-images.githubusercontent.com/66717834/142772420-a6c32e5f-44b6-4808-81d0-4b37938e5b4f.mp4
 
 For mounting option in campus, tbd [^1]
+[^1]: To be determined
 
 ## 3. Validation:
 ### 3.1. First attempt (A good provision):
