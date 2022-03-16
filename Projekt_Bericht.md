@@ -141,14 +141,21 @@ For the test installation in Campus, Thomas has asked the house keeper for a big
  
 Bad weather condition and some clearly visible obstacles are the most possible reason for bad signal records. The secondary reason can be incorrect set up antennas direction between ThIWert and staircase in Campus. We have come to some solutions for the situation. The first solution is another performance test on the roof of library where the vision is clearer with less chance of obstacles. Additional solution is to re-adjust antennas direction in ThIWert. However due to continuously bad weather condition in winter, it is most effective that we delay the project to summer semester when the weather is better and the trees have grown large so that maximum interruptions are visible so that we can have better adjustment.
 
-## 4. References:
-References collection:https://www.zotero.org/groups/4479602/backbone_thiwert/library
+### 3.2. Remaining questions/Unsolved problems:
 
-### 2.3. Contact detail:
-1. ThIWert:
+- Is is possible to connect antennas 60 GHz?
+- Is there any good position for antennas in summer to have clear view for signal?
+- How good is the signal to be considered 
+
+### 3.3. References collection:
+
+https://www.zotero.org/groups/4479602/backbone_thiwert/library
+
+### 3.4. Contact detail:
+3.4.1. ThIWert:
    - Prof. Ariane Ruff
    - Admin* Mark Gassmann
-2. Medienzentrum:
+3.4.2. Medienzentrum:
    - Fred Wagner
-3. Supervisor:
+3.4.3. Supervisor:
    - Prof. Dr.-Ing. Thomas Hühn
