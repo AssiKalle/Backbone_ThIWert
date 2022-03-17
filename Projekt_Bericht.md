@@ -10,7 +10,9 @@ An AKO Project by Gin Havana and AssiKalle
   2.4. Implementation  
 3. Validation  
   3.1. First attempt  
-4. References
+  3.2. Open questions  
+  3.3. References  
+  3.4. Contact detail
 
 ## 1. Introduction:
 The [Thüringer Innovationszentrum für Wertstoffe (ThIWert)](https://www.hs-nordhausen.de/forschung/thiwert/) is a partner of Thuringian industry and commerce and also of regional and supra-regional research institutions, colleges and universities, funded by the Free State of Thuringia and is co-financed by the European Regional Development Fund (ERDF). There should be Internet service provided for ThIWert building by individual ISP, however being a part of Hochschule Nordhausen, it is neccessary that ThIWert connects directly to Campus and is able to use the Internet through Campus's server.
@@ -118,7 +120,7 @@ For the mounting option on top of the heat tower, some risks have first been not
 
 https://user-images.githubusercontent.com/66717834/142772420-a6c32e5f-44b6-4808-81d0-4b37938e5b4f.mp4
 
-For mounting option in campus, tbd [^1]
+For mounting option in campus, [^1]
 [^1]: To be determined
 
 ## 3. Validation:
@@ -141,17 +143,21 @@ For the test installation in Campus, Thomas has asked the house keeper for a big
  
 Bad weather condition and some clearly visible obstacles are the most possible reason for bad signal records. The secondary reason can be incorrect set up antennas direction between ThIWert and staircase in Campus. We have come to some solutions for the situation. The first solution is another performance test on the roof of library where the vision is clearer with less chance of obstacles. Additional solution is to re-adjust antennas direction in ThIWert. However due to continuously bad weather condition in winter, it is most effective that we delay the project to summer semester when the weather is better and the trees have grown large so that maximum interruptions are visible so that we can have better adjustment.
 
-### 3.2. Remaining questions/Unsolved problems:
+### 3.2. Open questions:
 
 - Is is possible to connect antennas 60 GHz?
 - Is there any good position for antennas in summer to have clear view for signal?
-- How good is the signal to be considered 
+- How good is the signal to be considered good and reliable?
+- Will the connection stable through weather condition?
+- Can this project achievable in the end and how well would it be?
+- tbd [^1]
 
-### 3.3. References collection:
+### 3.3. References:
 
 https://www.zotero.org/groups/4479602/backbone_thiwert/library
 
 ### 3.4. Contact detail:
+
 3.4.1. ThIWert:
    - Prof. Ariane Ruff
    - Admin* Mark Gassmann
